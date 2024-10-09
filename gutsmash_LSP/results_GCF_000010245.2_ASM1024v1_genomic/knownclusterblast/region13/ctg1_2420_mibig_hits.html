@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>NP_461400.1</td>
+              <td>carboxysome_structural_protein_EutM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC0000003/1">MGC0000003</a></td>
+              <td>EUT</td>
+              <td>97.0</td>
+              <td>97.9</td>
+              <td>171.0</td>
+              <td>2.14e-59</td>
+          </tr>
+    
+          <tr>
+              <td>NP_460983.1</td>
+              <td>propanediol_utilization_polyhedral_body_protein_PduA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000010/1">MGC00000010</a></td>
+              <td>PDU</td>
+              <td>66.0</td>
+              <td>91.8</td>
+              <td>113.0</td>
+              <td>2.1e-36</td>
+          </tr>
+    
+          <tr>
+              <td>NP_460990.1</td>
+              <td>propanediol_utilization_polyhedral_body_protein_PduJ</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000010/1">MGC00000010</a></td>
+              <td>PDU</td>
+              <td>65.0</td>
+              <td>87.6</td>
+              <td>105.0</td>
+              <td>3.04e-33</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003485402.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC0000001/1">MGC0000001</a></td>
+              <td>TMA</td>
+              <td>54.0</td>
+              <td>89.7</td>
+              <td>82.0</td>
+              <td>7.69e-24</td>
+          </tr>
+    
+          <tr>
+              <td>NP_461390.1</td>
+              <td>carboxysome_structural_protein_EutK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC0000003/1">MGC0000003</a></td>
+              <td>EUT</td>
+              <td>48.0</td>
+              <td>85.6</td>
+              <td>72.0</td>
+              <td>2.04e-19</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

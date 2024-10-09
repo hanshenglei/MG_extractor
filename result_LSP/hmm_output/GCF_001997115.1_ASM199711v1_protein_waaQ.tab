@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001526672.1       -            356 K02849               -            503  7.7e-101  336.7   0.1   1   1  6.1e-104  9.3e-101  336.4   0.1    87   417     5   345     1   352 0.91 MULTISPECIES: lipopolysaccharide core heptosyltransferase RfaQ [Salmonella]
+WP_000699196.1       -            348 K02849               -            503   6.2e-59  198.4   0.0   1   1   4.5e-62   6.9e-59  198.3   0.0    88   418     1   346     1   348 0.82 MULTISPECIES: ADP-heptose--LPS heptosyltransferase RfaF [Salmonella]
+WP_001264604.1       -            317 K02849               -            503   1.3e-46  157.8   0.6   1   1   9.3e-50   1.4e-46  157.7   0.6    88   380     1   299     1   317 0.79 MULTISPECIES: lipopolysaccharide heptosyltransferase RfaC [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaQ.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_001997115.1_ASM199711v1_protein_waaQ.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaQ.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:49 2024
+# [ok]

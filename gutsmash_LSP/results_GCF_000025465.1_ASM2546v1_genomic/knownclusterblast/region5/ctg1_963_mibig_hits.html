@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AWG73519.1</td>
+              <td>UbiX_family_flavin_prenyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000059/1">MGC00000059</a></td>
+              <td>PHE</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>388.0</td>
+              <td>5.37e-142</td>
+          </tr>
+    
+          <tr>
+              <td>WP_021650679.1</td>
+              <td>polyprenyl_P-hydroxybenzoate_and_phenylacrylic_acid_decarboxylase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000024/1">MGC00000024</a></td>
+              <td>GALL</td>
+              <td>48.0</td>
+              <td>94.4</td>
+              <td>181.0</td>
+              <td>4.92e-60</td>
+          </tr>
+    
+          <tr>
+              <td>WP_014226787.1</td>
+              <td>UbiX_family_flavin_prenyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000020/1">MGC00000020</a></td>
+              <td>GALL</td>
+              <td>51.0</td>
+              <td>92.4</td>
+              <td>166.0</td>
+              <td>2.7e-54</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

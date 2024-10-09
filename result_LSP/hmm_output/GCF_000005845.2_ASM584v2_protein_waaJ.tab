@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_418083.1          -            338 K03279               -            332   1.3e-85  285.6   5.3   1   1   7.3e-89   1.6e-85  285.3   5.3     6   326    24   337     8   338 0.96 UDP-glucose:(glucosyl)LPS alpha-1,2-glucosyltransferase [Escherichia coli str. K-12 substr. MG1655]
+NP_418084.1          -            339 K03279               -            332   4.2e-63  211.6   7.7   1   1   2.3e-66     5e-63  211.3   7.7     8   325    25   338     7   339 0.88 UDP-D-glucose:(glucosyl)LPS alpha-1,3-glucosyltransferase [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaJ.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_000005845.2_ASM584v2_protein_waaJ.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaJ.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:49 2024
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000146428.1       -            318 K22444               -            321  6.2e-149  493.2   1.1   1   1    2e-151  7.1e-149  493.0   1.1     2   321     3   318     2   318 0.99 MULTISPECIES: carnitine monooxygenase, reductase subunit CntB [Acinetobacter]
+WP_000210290.1       -            317 K22444               -            321   7.3e-95  315.6   0.1   1   1   2.2e-97     8e-95  315.4   0.1     9   321     7   317     1   317 0.95 MULTISPECIES: PDR/VanB family oxidoreductase [Acinetobacter]
+WP_000382531.1       -            314 K22444               -            321   1.3e-93  311.5   1.3   1   1   3.9e-96   1.4e-93  311.3   1.3     7   321     1   314     1   314 0.96 PDR/VanB family oxidoreductase [Acinetobacter baumannii]
+WP_000077460.1       -            353 K22444               -            321   1.1e-37  127.7   0.8   1   1     6e-40   2.2e-37  126.7   0.8     8   319     6   349     1   351 0.75 MULTISPECIES: 1,2-phenylacetyl-CoA epoxidase subunit PaaE [Acinetobacter]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   1   2   1.4e-09   5.2e-07   26.9   0.3   246   315    19    89     4    93 0.81 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   2   2   4.1e-25   1.5e-22   78.0   0.0     7   229   109   341   102   344 0.77 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_001147894.1       -            356 K22444               -            321   4.6e-28   96.1   0.3   1   1   1.5e-30   5.6e-28   95.8   0.3    33   321    64   356    37   356 0.78 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   1   2   6.9e-08   2.5e-05   21.4   0.2   246   314    18    89     5    93 0.86 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   2   2   5.1e-23   1.9e-20   71.1   0.0     5   227   107   337   102   338 0.75 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000994548.1       -            341 K22444               -            321     4e-24   83.1   3.4   1   1   1.3e-26   4.8e-24   82.9   3.4     8   314    34   335    27   341 0.79 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   1   2   4.7e-14   1.7e-11   41.6   0.0     9   161     9   162     1   171 0.81 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   2   2     0.001      0.37    7.6   0.0   185   217   207   239   190   248 0.83 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000473047.1       -            848 K22444               -            321   1.1e-06   25.9   0.0   1   1   4.9e-09   1.8e-06   25.1   0.0    45   202   644   816   611   836 0.63 PepSY domain-containing protein [Acinetobacter baumannii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]

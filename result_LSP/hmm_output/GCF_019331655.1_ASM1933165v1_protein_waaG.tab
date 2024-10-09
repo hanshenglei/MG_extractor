@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001984466.1       -            432 K02844               -            389   5.4e-36  122.0   0.0   1   2   0.00038      0.27    7.8   0.0     2    40    51    90    50   143 0.86 glycosyltransferase family 1 protein [Acinetobacter baumannii]
+WP_001984466.1       -            432 K02844               -            389   5.4e-36  122.0   0.0   2   2   5.7e-36   4.1e-33  112.5   0.0   140   376   195   426   152   430 0.89 glycosyltransferase family 1 protein [Acinetobacter baumannii]
+WP_000867106.1       -            366 K02844               -            389   2.6e-33  113.2   0.0   1   1   5.3e-36   3.8e-33  112.6   0.0     7   374     7   365     1   366 0.79 glycosyltransferase family 4 protein [Acinetobacter baumannii]
+WP_000706915.1       -            344 K02844               -            389   3.4e-32  109.5   2.4   1   2   1.8e-06    0.0013   15.4   0.2     1    78     1    80     1    89 0.82 glycosyltransferase [Acinetobacter baumannii]
+WP_000706915.1       -            344 K02844               -            389   3.4e-32  109.5   2.4   2   2   1.9e-30   1.4e-27   94.3   0.2   160   375   134   343   116   344 0.91 glycosyltransferase [Acinetobacter baumannii]
+WP_000697210.1       -            344 K02844               -            389   1.4e-24   84.4   0.0   1   1   5.1e-25   3.7e-22   76.5   0.0     1   363     1   334     1   342 0.83 MULTISPECIES: glycosyltransferase family 4 protein [Acinetobacter]
+WP_000690116.1       -            387 K02844               -            389   3.6e-10   37.0   0.0   1   2   9.2e-06    0.0066   13.1   0.0   203   237   176   216    12   229 0.86 MULTISPECIES: glycosyltransferase [Acinetobacter]
+WP_000690116.1       -            387 K02844               -            389   3.6e-10   37.0   0.0   2   2   2.1e-08   1.5e-05   21.7   0.0   276   322   269   314   249   336 0.83 MULTISPECIES: glycosyltransferase [Acinetobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaG.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_019331655.1_ASM1933165v1_protein_waaG.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaG.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:50 2024
+# [ok]

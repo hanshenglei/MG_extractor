@@ -1,0 +1,20 @@
+{
+  "genome_file": "example/assembly",
+  "output_dir": "./result_LSP",
+  "gene_lable2": "example/gene_lable2",
+  "gene_name": "LSP",
+  "cds_dir": "example/cds",
+  "protein_dir": "example/protein",
+  "species_path": "example/species",
+  "gutsmash_output": "gutsmash_LSP",
+  "gap": 7,
+  "cpu": 16,
+  "e_value": 0.00001,
+  "domT": 0.5,
+  "score": 200,
+  "hmm_files": ["waaB.hmm","waaG.hmm","waaI.hmm","waaJ.hmm","waaK.hmm","waaP.hmm","waaQ.hmm","waaS.hmm","waaY.hmm","waaZ.hmm"],
+  "hmm_dir": "/home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm",
+  "gutsmash_path": "/home/hanshenglei/Software/gutsmash/run_gutsmash.py",
+  "seqkit_path": "/home/hanshenglei/miniforge3/envs/gutsmash/bin/seqkit",
+  "hmmsearch_path": "/usr/bin/hmmsearch"
+}

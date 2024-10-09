@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001188013.1       -            339 K03278               -            338  1.7e-153  508.6   9.8   1   1  9.1e-157  1.9e-153  508.4   9.8     1   337     1   338     1   339 0.99 MULTISPECIES: lipopolysaccharide 3-alpha-galactosyltransferase [Enterobacteriaceae]
+WP_000376841.1       -            338 K03278               -            338   1.4e-77  259.0   6.1   1   1   8.3e-81   1.7e-77  258.7   6.1    17   335    16   334     8   337 0.93 MULTISPECIES: lipopolysaccharide 1,2-glucosyltransferase RfaJ [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaI.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_000019425.1_ASM1942v1_protein_waaI.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaI.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:50 2024
+# [ok]

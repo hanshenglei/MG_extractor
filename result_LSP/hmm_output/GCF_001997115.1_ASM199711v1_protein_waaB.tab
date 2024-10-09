@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000683977.1       -            359 K02840               -            357  1.2e-142  473.5   0.0   1   1    2e-145  1.3e-142  473.3   0.0     1   354     1   358     1   359 0.99 MULTISPECIES: lipopolysaccharide 1,6-galactosyltransferase [Salmonella]
+WP_000868521.1       -            406 K02840               -            357   1.1e-24   85.4   0.0   1   1   2.1e-27   1.4e-24   85.1   0.0    83   350   118   404    83   406 0.79 MULTISPECIES: colanic acid biosynthesis glycosyltransferase WcaL [Salmonella]
+WP_001521643.1       -            353 K02840               -            357   1.4e-16   58.8   1.8   1   1   2.8e-19   1.8e-16   58.4   1.8    54   319    61   322     7   351 0.73 MULTISPECIES: glycosyltransferase family 1 protein [Enterobacteriaceae]
+WP_000824901.1       -            377 K02840               -            357   1.8e-13   48.5   0.7   1   1   2.5e-15   1.6e-12   45.4   0.1   170   321   189   341   165   348 0.86 MULTISPECIES: glycosyltransferase family 4 protein [Salmonella]
+WP_000591818.1       -            381 K02840               -            357   6.1e-13   46.8   0.1   1   1   1.5e-15   9.5e-13   46.2   0.1    82   351    97   377    19   381 0.72 MULTISPECIES: lipopolysaccharide N-acetylglucosaminyltransferase [Salmonella]
+WP_001023826.1       -            405 K02840               -            357   4.5e-09   34.0   0.0   1   1   1.3e-11   8.6e-09   33.1   0.0   233   311   286   363   284   373 0.85 MULTISPECIES: colanic acid biosynthesis glycosyltransferase WcaC [Salmonella]
+WP_001261577.1       -            374 K02840               -            357   5.6e-08   30.5   0.0   1   2     0.022        15    2.8   0.0     1    93     1    90     1   111 0.80 MULTISPECIES: glycosyltransferase family 4 protein [Salmonella]
+WP_001261577.1       -            374 K02840               -            357   5.6e-08   30.5   0.0   2   2     3e-09     2e-06   25.4   0.0   190   317   207   335   172   349 0.77 MULTISPECIES: glycosyltransferase family 4 protein [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaB.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_001997115.1_ASM199711v1_protein_waaB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaB.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:49 2024
+# [ok]

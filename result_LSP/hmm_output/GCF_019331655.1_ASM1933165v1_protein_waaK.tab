@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001984466.1       -            432 K03280               -            381   3.9e-26   89.5   0.0   1   1   8.7e-29   7.8e-26   88.5   0.0   142   325   198   371   189   423 0.87 glycosyltransferase family 1 protein [Acinetobacter baumannii]
+WP_000867106.1       -            366 K03280               -            381   3.4e-19   66.7   0.0   1   1   4.9e-22   4.4e-19   66.3   0.0   119   341   104   334    63   346 0.75 glycosyltransferase family 4 protein [Acinetobacter baumannii]
+WP_000706915.1       -            344 K03280               -            381   3.4e-18   63.4   0.4   1   1     8e-21   7.2e-18   62.3   0.4    93   356    78   322     6   327 0.72 glycosyltransferase [Acinetobacter baumannii]
+WP_000697210.1       -            344 K03280               -            381   3.3e-11   40.4   0.1   1   1   1.2e-13   1.1e-10   38.7   0.1   191   366   167   331    62   342 0.67 MULTISPECIES: glycosyltransferase family 4 protein [Acinetobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaK.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_019331655.1_ASM1933165v1_protein_waaK.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaK.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:50 2024
+# [ok]

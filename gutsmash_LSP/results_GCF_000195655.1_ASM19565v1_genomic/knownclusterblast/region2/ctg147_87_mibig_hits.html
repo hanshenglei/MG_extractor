@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAC73989.1</td>
+              <td>pyruvate_formate-lyase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000044/1">MGC00000044</a></td>
+              <td>PFL_acetate</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>1462.0</td>
+              <td>0.0</td>
+          </tr>
+    
+          <tr>
+              <td>AIF63627.1</td>
+              <td>pyruvate_formate-lyase_4/2-ketobutyrate_formate-lyase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000030/1">MGC00000030</a></td>
+              <td>PROP</td>
+              <td>79.0</td>
+              <td>99.9</td>
+              <td>1229.0</td>
+              <td>0.0</td>
+          </tr>
+    
+          <tr>
+              <td>AAK78956.1</td>
+              <td>Pyruvate-formate_lyase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000031/1">MGC00000031</a></td>
+              <td>PFL_acetate</td>
+              <td>60.0</td>
+              <td>98.2</td>
+              <td>895.0</td>
+              <td>0.0</td>
+          </tr>
+    
+          <tr>
+              <td>AAO79843.1</td>
+              <td>formate_acetyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000034/1">MGC00000034</a></td>
+              <td>PFL_acetate</td>
+              <td>58.0</td>
+              <td>98.2</td>
+              <td>819.0</td>
+              <td>4.23e-294</td>
+          </tr>
+    
+          <tr>
+              <td>NA</td>
+              <td>NA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000039/1">MGC00000039</a></td>
+              <td>PRO</td>
+              <td>24.0</td>
+              <td>95.8</td>
+              <td>120.0</td>
+              <td>6.37e-30</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000591818.1       -            381 K03280               -            381  2.7e-204  676.3   0.5   1   1  3.9e-207    3e-204  676.1   0.5     1   381     1   380     1   380 1.00 MULTISPECIES: lipopolysaccharide N-acetylglucosaminyltransferase [Salmonella]
+WP_001261577.1       -            374 K03280               -            381     9e-16   55.7   0.0   1   1   1.8e-18   1.4e-15   55.1   0.0   149   359   146   352   125   368 0.81 MULTISPECIES: glycosyltransferase family 4 protein [Salmonella]
+WP_000868521.1       -            406 K03280               -            381   5.5e-12   43.3   0.0   1   1   1.1e-14   8.3e-12   42.7   0.0   135   377   166   404   159   406 0.83 MULTISPECIES: colanic acid biosynthesis glycosyltransferase WcaL [Salmonella]
+WP_000824901.1       -            377 K03280               -            381   5.8e-10   36.6   0.0   1   1   1.2e-12   8.8e-10   36.0   0.0   195   377   196   372   183   376 0.79 MULTISPECIES: glycosyltransferase family 4 protein [Salmonella]
+WP_000699632.1       -            407 K03280               -            381   2.7e-09   34.4   0.0   1   1   5.4e-12   4.2e-09   33.8   0.0   147   355   180   388   153   406 0.78 MULTISPECIES: colanic acid biosynthesis fucosyltransferase WcaI [Salmonella]
+WP_001521643.1       -            353 K03280               -            381   5.5e-08   30.1   0.2   1   1   2.3e-10   1.8e-07   28.4   0.2   240   341   219   321   138   345 0.83 MULTISPECIES: glycosyltransferase family 1 protein [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaK.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_001997115.1_ASM199711v1_protein_waaK.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaK.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:49 2024
+# [ok]

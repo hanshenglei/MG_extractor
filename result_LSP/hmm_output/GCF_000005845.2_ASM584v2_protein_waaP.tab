@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_418087.1          -            265 K02848               -            336    3e-132  438.4   0.1   1   1  1.6e-135  3.3e-132  438.3   0.1     4   266     1   263     1   265 0.99 lipopolysaccharide core heptose (I) kinase [Escherichia coli str. K-12 substr. MG1655]
+NP_416740.1          -            216 K02848               -            336   4.1e-11   40.2   0.1   1   1   2.2e-14   4.6e-11   40.0   0.1    78   181    67   169     9   194 0.86 putative lipopolysaccharide kinase InaA [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaP.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout ./result_LSP/hmm_output/GCF_000005845.2_ASM584v2_protein_waaP.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/waaP.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Thu Oct 10 02:24:49 2024
+# [ok]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAC73988.1</td>
+              <td>pyruvate_formate-lyase_activating_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000044/1">MGC00000044</a></td>
+              <td>PFL_acetate</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>521.0</td>
+              <td>5.76e-193</td>
+          </tr>
+    
+          <tr>
+              <td>AAK78957.1</td>
+              <td>Pyruvate-formate-lyase-activating_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000031/1">MGC00000031</a></td>
+              <td>PFL_acetate</td>
+              <td>43.0</td>
+              <td>96.7</td>
+              <td>213.0</td>
+              <td>2.18e-71</td>
+          </tr>
+    
+          <tr>
+              <td>AAO79842.1</td>
+              <td>pyruvate_formate-lyase_activating_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000034/1">MGC00000034</a></td>
+              <td>PFL_acetate</td>
+              <td>43.0</td>
+              <td>95.5</td>
+              <td>209.0</td>
+              <td>1.18e-69</td>
+          </tr>
+    
+          <tr>
+              <td>NA</td>
+              <td>NA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000039/1">MGC00000039</a></td>
+              <td>PRO</td>
+              <td>33.0</td>
+              <td>78.9</td>
+              <td>115.0</td>
+              <td>1.09e-32</td>
+          </tr>
+    
+          <tr>
+              <td>YP_001086624.1</td>
+              <td>4-hydroxyphenylacetate_decarboxylase_activating_subunit_HpdA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000012/1">MGC00000012</a></td>
+              <td>PCRE</td>
+              <td>36.0</td>
+              <td>69.9</td>
+              <td>99.0</td>
+              <td>1.59e-26</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

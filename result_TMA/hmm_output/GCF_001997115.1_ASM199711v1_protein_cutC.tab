@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000149714.1       -            765 K20038               -            821  3.9e-209  694.8   0.0   1   1  1.1e-211  9.7e-209  693.5   0.0    33   819     1   764     1   765 0.96 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000192673.1       -            810 K20038               -            821  5.6e-205  681.0   0.0   1   1  8.2e-208  7.5e-205  680.6   0.0    31   818     7   808     2   809 0.95 MULTISPECIES: glycyl radical protein [Salmonella]
+WP_001292799.1       -            760 K20038               -            821     1e-54  184.0   0.6   1   1   1.8e-56   1.6e-53  180.0   0.6   283   820   247   759   216   760 0.87 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   1   2   8.8e-20   8.1e-17   58.6   0.0   265   554   230   514   216   546 0.84 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   2   2   4.4e-39     4e-36  122.5   0.0   633   819   568   762   554   764 0.91 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000627811.1       -            127 K20038               -            821   3.5e-12   43.3   0.0   1   1   4.5e-15   4.1e-12   43.1   0.0   764   820    70   126    61   127 0.94 MULTISPECIES: autonomous glycyl radical cofactor GrcA [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]

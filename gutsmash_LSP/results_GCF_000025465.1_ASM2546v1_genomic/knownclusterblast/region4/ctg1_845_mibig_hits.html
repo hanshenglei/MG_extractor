@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>NP_461000.1</td>
+              <td>propanediol_utilization_polyhedral_body_protein_PduU</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000010/1">MGC00000010</a></td>
+              <td>PDU</td>
+              <td>91.0</td>
+              <td>100.0</td>
+              <td>203.0</td>
+              <td>2.73e-71</td>
+          </tr>
+    
+          <tr>
+              <td>NP_461405.1</td>
+              <td>carboxysome_structural_protein_EutS</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC0000003/1">MGC0000003</a></td>
+              <td>EUT</td>
+              <td>61.0</td>
+              <td>93.1</td>
+              <td>129.0</td>
+              <td>4.19e-42</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003485409.1</td>
+              <td>propanediol_utilization_protein_PduU</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC0000001/1">MGC0000001</a></td>
+              <td>TMA</td>
+              <td>59.0</td>
+              <td>94.0</td>
+              <td>125.0</td>
+              <td>1.17e-40</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

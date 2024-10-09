@@ -1,0 +1,814 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_416316.1          -            374 K22443               -            371  1.5e-180  597.6   0.1   1   1  7.7e-184  1.6e-180  597.5   0.1     7   370    10   373     1   374 0.98 carnitine monooxygenase subunit YeaW [Escherichia coli str. K-12 substr. MG1655]
+NP_417033.1          -            453 K22443               -            371   1.7e-42  143.3   0.0   1   1   1.1e-45   2.5e-42  142.8   0.0    21   218    20   224     3   230 0.90 putative 3-phenylpropionate/cinnamate dioxygenase subunit alpha [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001669316.1       -            322 K22444               -            321   2.3e-31  107.2   0.0   1   1   5.1e-34   2.9e-31  106.9   0.0     8   309    11   312     3   321 0.79 MULTISPECIES: NADH oxidoreductase [Salmonella]
+WP_000883146.1       -            396 K22444               -            321     1e-22   78.8   0.0   1   1     6e-25   3.4e-22   77.1   0.0    17   226   163   391   154   395 0.75 MULTISPECIES: NO-inducible flavohemoprotein [Salmonella]
+WP_000018226.1       -            330 K22444               -            321   6.2e-18   63.1   0.7   1   2   2.8e-09   1.6e-06   25.6   0.6   241   311     9    74     2    81 0.78 MULTISPECIES: CDP-6-deoxy-delta-3,4-glucoseen reductase [Salmonella]
+WP_000018226.1       -            330 K22444               -            321   6.2e-18   63.1   0.7   2   2   4.5e-12   2.6e-09   34.8   0.0    14   229   104   324    92   329 0.75 MULTISPECIES: CDP-6-deoxy-delta-3,4-glucoseen reductase [Salmonella]
+WP_000533921.1       -             84 K22444               -            321   7.3e-12   43.2   0.5   1   1   1.7e-14   9.7e-12   42.8   0.5   237   315     4    79     3    82 0.82 MULTISPECIES: ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Salmonella]
+WP_000224069.1       -            369 K22444               -            321   3.3e-08   31.2   0.1   1   1   8.4e-11   4.8e-08   30.6   0.1   236   287   290   340   265   351 0.90 MULTISPECIES: YcbX family protein [Salmonella]
+WP_000210927.1       -            599 K22444               -            321   4.8e-08   30.6   0.0   1   1   1.4e-10   7.9e-08   29.9   0.0    56   207   386   562   377   573 0.60 MULTISPECIES: NADPH-dependent assimilatory sulfite reductase flavoprotein subunit [Salmonella]
+WP_000796300.1       -            248 K22444               -            321   2.7e-06   24.9   0.0   1   1   1.3e-08   7.2e-06   23.5   0.0     9   213     7   228     1   238 0.69 MULTISPECIES: ferredoxin--NADP(+) reductase [Salmonella]
+WP_000209831.1       -            233 K22444               -            321   7.2e-06   23.5   0.0   1   1   1.8e-08     1e-05   23.0   0.0     7   125     4   116     1   160 0.84 MULTISPECIES: NAD(P)H-flavin reductase [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000149714.1       -            765 K20038               -            821  3.9e-209  694.8   0.0   1   1  1.1e-211  9.7e-209  693.5   0.0    33   819     1   764     1   765 0.96 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000192673.1       -            810 K20038               -            821  5.6e-205  681.0   0.0   1   1  8.2e-208  7.5e-205  680.6   0.0    31   818     7   808     2   809 0.95 MULTISPECIES: glycyl radical protein [Salmonella]
+WP_001292799.1       -            760 K20038               -            821     1e-54  184.0   0.6   1   1   1.8e-56   1.6e-53  180.0   0.6   283   820   247   759   216   760 0.87 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   1   2   8.8e-20   8.1e-17   58.6   0.0   265   554   230   514   216   546 0.84 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   2   2   4.4e-39     4e-36  122.5   0.0   633   819   568   762   554   764 0.91 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000627811.1       -            127 K20038               -            821   3.5e-12   43.3   0.0   1   1   4.5e-15   4.1e-12   43.1   0.0   764   820    70   126    61   127 0.94 MULTISPECIES: autonomous glycyl radical cofactor GrcA [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001069886.1       -            263 K20037               -            313   7.6e-09   32.6   2.2   1   1   1.4e-11   1.2e-08   31.9   2.2    46   115    77   145    70   167 0.82 MULTISPECIES: RnfABCDGE type electron transport complex subunit B [Acinetobacter]
+WP_000276693.1       -            180 K20037               -            313   3.2e-08   30.5   1.4   1   1   4.9e-11   4.4e-08   30.1   1.4    58   110    57   117    55   139 0.87 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Acinetobacter]
+WP_000864073.1       -             81 K20037               -            313   3.7e-07   27.1   3.3   1   1   4.7e-10   4.2e-07   26.9   3.3    52   109    14    74     7    77 0.87 MULTISPECIES: ferredoxin family protein [Acinetobacter]
+WP_000144889.1       -            107 K20037               -            313   3.1e-06   24.0   2.7   1   1   3.6e-09   3.3e-06   24.0   2.7    57   110     5    58     1    76 0.76 MULTISPECIES: ferredoxin FdxA [Acinetobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000067822.1       -            374 K22443               -            371  1.4e-180  597.6   0.1   1   1  7.7e-184  1.6e-180  597.5   0.1     7   370    10   373     1   374 0.98 MULTISPECIES: carnitine monooxygenase, oxygenase subunit YeaW [Enterobacteriaceae]
+WP_000211172.1       -            453 K22443               -            371   1.6e-42  143.3   0.0   1   1   1.1e-45   2.4e-42  142.8   0.0    21   218    20   224     3   230 0.90 MULTISPECIES: 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000019425.1_ASM1942v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+YP_004994389.1       -            304 K22444               -            321  4.1e-144  477.4   1.5   1   1  1.5e-146  4.6e-144  477.2   1.5    15   321     2   304     1   304 0.99 putative dioxygenase subunit beta [Acinetobacter pittii PHEA-2]
+YP_004995605.1       -            317 K22444               -            321   4.4e-95  316.3   0.1   1   1   1.6e-97   4.8e-95  316.2   0.1     9   321     7   317     1   317 0.95 vanillate monooxygenase, oxidoreductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994663.1       -            314 K22444               -            321   1.2e-94  314.9   1.1   1   1   4.4e-97   1.3e-94  314.7   1.1     7   321     1   314     1   314 0.96 vanillate O-demethylase oxidoreductase (vanillate degradation ferredoxin-like protein) [Acinetobacter pittii PHEA-2]
+YP_004994738.1       -            353 K22444               -            321   6.4e-32  108.7   0.2   1   2   3.2e-11   9.7e-09   32.6   0.2   235   312     3    81     1    88 0.79 phenol 2-monooxygenase [Acinetobacter pittii PHEA-2]
+YP_004994738.1       -            353 K22444               -            321   6.4e-32  108.7   0.2   2   2   2.9e-23   8.8e-21   72.1   0.0     7   229   105   338   100   350 0.80 phenol 2-monooxygenase [Acinetobacter pittii PHEA-2]
+YP_004995384.1       -            344 K22444               -            321   1.1e-31  108.0   0.1   1   2   2.2e-09   6.5e-07   26.6   0.2   246   315    19    89     4    93 0.81 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004995384.1       -            344 K22444               -            321   1.1e-31  108.0   0.1   2   2   2.2e-25   6.5e-23   79.1   0.0     7   229   109   341   102   344 0.77 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994732.1       -            338 K22444               -            321   3.5e-28   96.5   0.0   1   2   7.6e-08   2.3e-05   21.5   0.1   246   314    18    89     7    93 0.87 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994732.1       -            338 K22444               -            321   3.5e-28   96.5   0.0   2   2   2.4e-23   7.2e-21   72.4   0.0     5   227   107   337   102   338 0.75 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004996194.1       -            356 K22444               -            321   2.4e-27   93.7   0.2   1   1   9.6e-30   2.9e-27   93.4   0.2    24   321    57   356    37   356 0.77 flavodoxin reductase(ferredoxin-NADPH reductase) family1 [Acinetobacter pittii PHEA-2]
+YP_004994954.1       -            281 K22444               -            321   1.2e-26   91.4   0.1   1   1   7.5e-29   2.2e-26   90.5   0.1     8   248     6   267     1   277 0.76 phenylacetate-CoA oxygenase/reductase subunit PaaK [Acinetobacter pittii PHEA-2]
+YP_004997225.1       -            341 K22444               -            321   5.9e-24   82.6   2.6   1   1   2.4e-26   7.1e-24   82.3   2.6     8   314    34   335    27   341 0.78 putative oxidoreductase [Acinetobacter pittii PHEA-2]
+YP_004994302.1       -            253 K22444               -            321   2.6e-14   50.8   0.0   1   2   8.6e-14   2.6e-11   41.0   0.0     9   161     9   162     1   171 0.81 ferredoxin--NADP+ reductase [Acinetobacter pittii PHEA-2]
+YP_004994302.1       -            253 K22444               -            321   2.6e-14   50.8   0.0   2   2     0.001      0.31    7.9   0.0   180   217   202   239   191   248 0.84 ferredoxin--NADP+ reductase [Acinetobacter pittii PHEA-2]
+YP_004994955.1       -             79 K22444               -            321   2.5e-09   34.5   0.0   1   1   9.2e-12   2.7e-09   34.4   0.0   247   318     4    74     1    77 0.90 multicomponent oxygenase/reductase subunit for phenylacetic acid degradation [Acinetobacter pittii PHEA-2]
+YP_004996522.1       -            862 K22444               -            321   3.7e-07   27.4   0.0   1   1     2e-09   6.1e-07   26.6   0.0    43   200   656   828   625   848 0.67 putative bifunctional protein [Acinetobacter pittii PHEA-2]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000191145.1_ASM19114v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000191145.1_ASM19114v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000191145.1_ASM19114v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_416317.1          -            321 K22444               -            321  5.7e-163  539.6   0.3   1   1  1.3e-165  6.4e-163  539.5   0.3     1   321     1   321     1   321 1.00 carnitine monooxygenase subunit YeaX [Escherichia coli str. K-12 substr. MG1655]
+NP_415910.1          -            356 K22444               -            321   1.5e-33  114.3   0.0   1   1   1.2e-35   5.9e-33  112.4   0.0     8   320     6   349     1   350 0.78 phenylacetyl-CoA 1,2-epoxidase, reductase subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_415393.1          -            322 K22444               -            321   3.3e-31  106.6   0.0   1   1   8.8e-34   4.2e-31  106.3   0.0     8   308    11   311     3   321 0.79 NADH oxidoreductase [Escherichia coli str. K-12 substr. MG1655]
+NP_417047.1          -            396 K22444               -            321   1.7e-22   78.0   0.0   1   1   1.1e-24   5.4e-22   76.4   0.0    16   226   162   391   152   395 0.73 nitric oxide dioxygenase [Escherichia coli str. K-12 substr. MG1655]
+NP_416739.1          -             84 K22444               -            321   1.1e-11   42.5   0.5   1   1     3e-14   1.4e-11   42.1   0.5   237   315     4    79     2    82 0.83 ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Escherichia coli str. K-12 substr. MG1655]
+NP_415467.1          -            369 K22444               -            321   2.1e-08   31.7   0.3   1   1   6.6e-11   3.1e-08   31.1   0.3   236   288   290   341   278   365 0.88 6-N-hydroxylaminopurine resistance protein [Escherichia coli str. K-12 substr. MG1655]
+NP_417244.1          -            599 K22444               -            321   5.3e-08   30.4   0.0   1   1   1.8e-10   8.7e-08   29.7   0.0    56   209   386   565   377   579 0.64 sulfite reductase, flavoprotein subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_418359.1          -            248 K22444               -            321   3.4e-06   24.4   0.0   1   1     3e-08   1.4e-05   22.4   0.0     9   213     7   228     1   237 0.61 flavodoxin/ferredoxin-NADP(+) reductase [Escherichia coli str. K-12 substr. MG1655]
+NP_418286.1          -            233 K22444               -            321   7.4e-06   23.3   0.0   1   1   3.1e-08   1.5e-05   22.4   0.0     7   124     4   115     1   148 0.86 NAD(P)H-flavin reductase [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000146428.1       -            318 K22444               -            321  6.2e-149  493.2   1.1   1   1    2e-151  7.1e-149  493.0   1.1     2   321     3   318     2   318 0.99 MULTISPECIES: carnitine monooxygenase, reductase subunit CntB [Acinetobacter]
+WP_000210290.1       -            317 K22444               -            321   7.3e-95  315.6   0.1   1   1   2.2e-97     8e-95  315.4   0.1     9   321     7   317     1   317 0.95 MULTISPECIES: PDR/VanB family oxidoreductase [Acinetobacter]
+WP_000382531.1       -            314 K22444               -            321   1.3e-93  311.5   1.3   1   1   3.9e-96   1.4e-93  311.3   1.3     7   321     1   314     1   314 0.96 PDR/VanB family oxidoreductase [Acinetobacter baumannii]
+WP_000077460.1       -            353 K22444               -            321   1.1e-37  127.7   0.8   1   1     6e-40   2.2e-37  126.7   0.8     8   319     6   349     1   351 0.75 MULTISPECIES: 1,2-phenylacetyl-CoA epoxidase subunit PaaE [Acinetobacter]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   1   2   1.4e-09   5.2e-07   26.9   0.3   246   315    19    89     4    93 0.81 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   2   2   4.1e-25   1.5e-22   78.0   0.0     7   229   109   341   102   344 0.77 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_001147894.1       -            356 K22444               -            321   4.6e-28   96.1   0.3   1   1   1.5e-30   5.6e-28   95.8   0.3    33   321    64   356    37   356 0.78 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   1   2   6.9e-08   2.5e-05   21.4   0.2   246   314    18    89     5    93 0.86 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   2   2   5.1e-23   1.9e-20   71.1   0.0     5   227   107   337   102   338 0.75 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000994548.1       -            341 K22444               -            321     4e-24   83.1   3.4   1   1   1.3e-26   4.8e-24   82.9   3.4     8   314    34   335    27   341 0.79 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   1   2   4.7e-14   1.7e-11   41.6   0.0     9   161     9   162     1   171 0.81 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   2   2     0.001      0.37    7.6   0.0   185   217   207   239   190   248 0.83 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000473047.1       -            848 K22444               -            321   1.1e-06   25.9   0.0   1   1   4.9e-09   1.8e-06   25.1   0.0    45   202   644   816   611   836 0.63 PepSY domain-containing protein [Acinetobacter baumannii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_418386.1          -            765 K20038               -            821  2.6e-215  715.1   0.0   1   1    8e-218  6.9e-215  713.7   0.0    33   819     1   764     1   765 0.96 putative formate acetyltransferase 2 [Escherichia coli str. K-12 substr. MG1655]
+NP_415344.1          -            810 K20038               -            821  3.4e-203  675.0   0.0   1   1  5.2e-206  4.4e-203  674.6   0.0    31   818     7   808     2   809 0.95 putative pyruvate formate lyase [Escherichia coli str. K-12 substr. MG1655]
+YP_026205.1          -            764 K20038               -            821   1.1e-55  187.1   0.0   1   2   3.2e-20   2.7e-17   60.1   0.0   261   554   226   514   215   545 0.86 2-ketobutyrate formate-lyase/pyruvate formate-lyase 4 [Escherichia coli str. K-12 substr. MG1655]
+YP_026205.1          -            764 K20038               -            821   1.1e-55  187.1   0.0   2   2     1e-39   8.7e-37  124.6   0.0   633   819   568   762   552   764 0.91 2-ketobutyrate formate-lyase/pyruvate formate-lyase 4 [Escherichia coli str. K-12 substr. MG1655]
+NP_415423.1          -            760 K20038               -            821   1.7e-53  179.8   0.5   1   1   3.3e-55   2.9e-52  175.8   0.5   284   820   248   759   220   760 0.88 pyruvate formate-lyase [Escherichia coli str. K-12 substr. MG1655]
+NP_417074.1          -            127 K20038               -            821   3.4e-12   43.3   0.0   1   1   4.8e-15   4.2e-12   43.0   0.0   764   820    70   126    64   127 0.94 stress-induced alternate pyruvate formate-lyase subunit [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000576947.1       -            299 K20037               -            313   5.7e-84  279.7   0.0   1   1   2.5e-86   6.4e-84  279.6   0.0    11   310     1   297     1   299 0.93 MULTISPECIES: glycyl-radical enzyme activating protein [Salmonella]
+WP_000171724.1       -            292 K20037               -            313   6.4e-78  259.9   0.0   1   2   8.9e-29   2.3e-26   90.5   1.3     6    69    18    81    14    84 0.95 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Salmonella]
+WP_000171724.1       -            292 K20037               -            313   6.4e-78  259.9   0.0   2   2   6.7e-54   1.7e-51  173.1   0.0    91   309    75   289    74   291 0.99 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Salmonella]
+WP_000067973.1       -            265 K20037               -            313   4.7e-60  201.2   3.1   1   2   4.1e-12     1e-09   35.8   1.3    10    49    24    63    15    66 0.86 MULTISPECIES: pyruvate formate lyase 1-activating protein [Salmonella]
+WP_000067973.1       -            265 K20037               -            313   4.7e-60  201.2   3.1   2   2   1.2e-51     3e-49  165.7   0.0   111   308    67   263    63   265 0.96 MULTISPECIES: pyruvate formate lyase 1-activating protein [Salmonella]
+WP_001064938.1       -            287 K20037               -            313     5e-47  158.4   1.1   1   1   2.5e-49   6.5e-47  158.0   1.1     7   255     3   238     1   255 0.92 MULTISPECIES: YjjW family glycine radical enzyme activase [Salmonella]
+WP_000247788.1       -            287 K20037               -            313   2.4e-11   41.1  17.8   1   2   2.9e-07   7.3e-05   19.9   3.4    62   108    24    68    13    78 0.87 MULTISPECIES: 4Fe-4S binding protein [Salmonella]
+WP_000247788.1       -            287 K20037               -            313   2.4e-11   41.1  17.8   2   2   7.5e-10   1.9e-07   28.4   4.9    57   109   189   239   182   248 0.89 MULTISPECIES: 4Fe-4S binding protein [Salmonella]
+WP_000091673.1       -            231 K20037               -            313   2.2e-08   31.4  10.7   1   2     9e-09   2.3e-06   24.8   0.7    58   110    58   119    52   138 0.84 MULTISPECIES: ferredoxin-type protein NapG [Salmonella]
+WP_000091673.1       -            231 K20037               -            313   2.2e-08   31.4  10.7   2   2   7.8e-05      0.02   11.9   3.1    54   105   132   199   126   212 0.67 MULTISPECIES: ferredoxin-type protein NapG [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   1   3      0.03       7.5    3.4   9.8    48   106     4    80     2    81 0.69 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   2   3   2.9e-08   7.5e-06   23.1   6.0    52   104    55   108    44   115 0.82 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   3   3   4.1e-07   0.00011   19.4   2.7    54   109    89   150    85   176 0.80 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_000493767.1       -            180 K20037               -            313   7.9e-08   29.6   4.2   1   1   3.1e-10   7.9e-08   29.6   4.2    57   110    36    93    25   110 0.83 MULTISPECIES: formate hydrogenlyase subunit HycF [Salmonella]
+WP_000172747.1       -            180 K20037               -            313     1e-07   29.2   1.5   1   1   5.4e-10   1.4e-07   28.8   1.5    58   110    57   117    55   132 0.90 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Enterobacteriaceae]
+WP_001092597.1       -            192 K20037               -            313   1.4e-07   28.8   7.1   1   1   8.3e-10   2.1e-07   28.2   7.1    55   109   111   164    96   173 0.87 MULTISPECIES: electron transport complex subunit RsxB [Salmonella]
+WP_000228070.1       -            163 K20037               -            313   5.7e-07   26.8  17.1   1   2     1e-06   0.00026   18.1   4.2    56   105    31    81    24    84 0.88 MULTISPECIES: ferredoxin-type protein NapF [Salmonella]
+WP_000228070.1       -            163 K20037               -            313   5.7e-07   26.8  17.1   2   2   1.3e-05    0.0032   14.5   5.2    59   110   104   158    93   163 0.81 MULTISPECIES: ferredoxin-type protein NapF [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   1   3    0.0027      0.68    6.8   2.1    87   108     7    28     1    52 0.58 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   2   3   1.3e-07   3.4e-05   21.0   8.4    57   114    54   111    47   126 0.82 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   3   3   1.2e-06   0.00031   17.8   6.2    53   111    81   143    79   154 0.73 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_000020685.1       -            337 K20037               -            313   8.8e-07   26.2   9.2   1   1   6.2e-09   1.6e-06   25.3   9.2    47   108   166   228   147   236 0.78 MULTISPECIES: sulfite reductase subunit C [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   1   3    0.0039      0.99    6.3   1.1    53    73    38    58    30    71 0.77 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   2   3   2.2e-07   5.6e-05   20.3   4.0    44   109    75   142    73   152 0.77 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   3   3   1.1e-06   0.00028   18.0   1.5    56   129   120   199   115   206 0.69 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001523928.1       -            244 K20037               -            313   2.3e-06   24.8  12.9   1   2     0.005       1.3    6.0   0.9    50    84    42    76    33    95 0.64 MULTISPECIES: tetrathionate reductase subunit TtrB [Salmonella]
+WP_001523928.1       -            244 K20037               -            313   2.3e-06   24.8  12.9   2   2   1.7e-08   4.4e-06   23.9   5.4    58   118    97   158    85   167 0.77 MULTISPECIES: tetrathionate reductase subunit TtrB [Salmonella]
+WP_001078791.1       -            181 K20037               -            313   2.3e-06   24.8   5.5   1   2    0.0057       1.4    5.8   2.6    86   105     6    25     1    45 0.79 MULTISPECIES: electron transport protein HydN [Salmonella]
+WP_001078791.1       -            181 K20037               -            313   2.3e-06   24.8   5.5   2   2   9.2e-09   2.3e-06   24.8   5.5    58   111    55   108    37   115 0.85 MULTISPECIES: electron transport protein HydN [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   1   3    0.0066       1.7    5.5   0.2    80   104    28    51     2    65 0.73 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   2   3   8.9e-07   0.00023   18.3   2.3    49   103    88   144    85   146 0.85 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   3   3   5.3e-07   0.00013   19.0   1.9    54   113   126   190   119   205 0.78 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000816143.1       -            208 K20037               -            313   4.1e-06   24.0   4.3   1   2     0.026       6.7    3.6   0.3    55    73     7    25     1    36 0.64 MULTISPECIES: DMSO/selenate family reductase complex B subunit [Salmonella]
+WP_000816143.1       -            208 K20037               -            313   4.1e-06   24.0   4.3   2   2   1.6e-08   4.1e-06   24.0   4.3    41   112    46   119    44   127 0.84 MULTISPECIES: DMSO/selenate family reductase complex B subunit [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001277086.1       -            371 K22443               -            371  3.4e-175  579.8   1.3   1   1  8.4e-178  3.8e-175  579.6   1.3     1   369     1   370     1   371 0.99 carnitine monooxygenase subunit alpha [Acinetobacter baumannii]
+WP_001084470.1       -            425 K22443               -            371   5.7e-54  180.8   0.0   1   1   1.9e-56   8.4e-54  180.3   0.0    22   223    24   229     6   242 0.93 MULTISPECIES: aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter]
+WP_000204401.1       -            471 K22443               -            371     2e-51  172.4   0.1   1   1   1.2e-53   5.5e-51  171.0   0.0    21   223    28   236    16   251 0.91 anthranilate 1,2-dioxygenase large subunit [Acinetobacter baumannii]
+WP_001137396.1       -            460 K22443               -            371   1.3e-46  156.7   0.3   1   1   1.7e-48   7.6e-46  154.1   0.1    18   252    27   269    13   281 0.88 benzoate 1,2-dioxygenase large subunit [Acinetobacter baumannii]
+WP_000991558.1       -            351 K22443               -            371     1e-12   45.1   0.0   1   2   3.7e-14   1.7e-11   41.1   0.0    30   151    16   134     6   145 0.90 aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter baumannii]
+WP_000991558.1       -            351 K22443               -            371     1e-12   45.1   0.0   2   2      0.03        13    1.9   0.0   200   330   176   312   173   315 0.64 aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter baumannii]
+WP_000991783.1       -            355 K22443               -            371   4.4e-11   39.7   1.1   1   1   3.1e-13   1.4e-10   38.1   1.1    65   223    42   191    19   265 0.68 MULTISPECIES: aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter]
+WP_000470079.1       -            358 K22443               -            371   6.2e-10   35.9   2.1   1   2   1.2e-11   5.4e-09   32.8   0.7    41   134     4    94     1   173 0.80 aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter baumannii]
+WP_000470079.1       -            358 K22443               -            371   6.2e-10   35.9   2.1   2   2     0.066        30    0.8   0.0   281   334   253   309   242   335 0.68 aromatic ring-hydroxylating dioxygenase subunit alpha [Acinetobacter baumannii]
+WP_000118514.1       -            101 K22443               -            371   8.4e-06   22.3   0.0   1   1   2.1e-08   9.4e-06   22.2   0.0    43   127     2    85     1    94 0.87 MULTISPECIES: non-heme iron oxygenase ferredoxin subunit [Acinetobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_416316.1          -            374 K22443               -            371  1.5e-180  597.6   0.1   1   1  7.7e-184  1.6e-180  597.5   0.1     7   370    10   373     1   374 0.98 carnitine monooxygenase subunit YeaW [Escherichia coli str. K-12 substr. MG1655]
+NP_417033.1          -            453 K22443               -            371   1.7e-42  143.3   0.0   1   1   1.1e-45   2.5e-42  142.8   0.0    21   218    20   224     3   230 0.90 putative 3-phenylpropionate/cinnamate dioxygenase subunit alpha [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001669316.1       -            322 K22444               -            321   2.3e-31  107.2   0.0   1   1   5.1e-34   2.9e-31  106.9   0.0     8   309    11   312     3   321 0.79 MULTISPECIES: NADH oxidoreductase [Salmonella]
+WP_000883146.1       -            396 K22444               -            321     1e-22   78.8   0.0   1   1     6e-25   3.4e-22   77.1   0.0    17   226   163   391   154   395 0.75 MULTISPECIES: NO-inducible flavohemoprotein [Salmonella]
+WP_000018226.1       -            330 K22444               -            321   6.2e-18   63.1   0.7   1   2   2.8e-09   1.6e-06   25.6   0.6   241   311     9    74     2    81 0.78 MULTISPECIES: CDP-6-deoxy-delta-3,4-glucoseen reductase [Salmonella]
+WP_000018226.1       -            330 K22444               -            321   6.2e-18   63.1   0.7   2   2   4.5e-12   2.6e-09   34.8   0.0    14   229   104   324    92   329 0.75 MULTISPECIES: CDP-6-deoxy-delta-3,4-glucoseen reductase [Salmonella]
+WP_000533921.1       -             84 K22444               -            321   7.3e-12   43.2   0.5   1   1   1.7e-14   9.7e-12   42.8   0.5   237   315     4    79     3    82 0.82 MULTISPECIES: ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Salmonella]
+WP_000224069.1       -            369 K22444               -            321   3.3e-08   31.2   0.1   1   1   8.4e-11   4.8e-08   30.6   0.1   236   287   290   340   265   351 0.90 MULTISPECIES: YcbX family protein [Salmonella]
+WP_000210927.1       -            599 K22444               -            321   4.8e-08   30.6   0.0   1   1   1.4e-10   7.9e-08   29.9   0.0    56   207   386   562   377   573 0.60 MULTISPECIES: NADPH-dependent assimilatory sulfite reductase flavoprotein subunit [Salmonella]
+WP_000796300.1       -            248 K22444               -            321   2.7e-06   24.9   0.0   1   1   1.3e-08   7.2e-06   23.5   0.0     9   213     7   228     1   238 0.69 MULTISPECIES: ferredoxin--NADP(+) reductase [Salmonella]
+WP_000209831.1       -            233 K22444               -            321   7.2e-06   23.5   0.0   1   1   1.8e-08     1e-05   23.0   0.0     7   125     4   116     1   160 0.84 MULTISPECIES: NAD(P)H-flavin reductase [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000149714.1       -            765 K20038               -            821  3.9e-209  694.8   0.0   1   1  1.1e-211  9.7e-209  693.5   0.0    33   819     1   764     1   765 0.96 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000192673.1       -            810 K20038               -            821  5.6e-205  681.0   0.0   1   1  8.2e-208  7.5e-205  680.6   0.0    31   818     7   808     2   809 0.95 MULTISPECIES: glycyl radical protein [Salmonella]
+WP_001292799.1       -            760 K20038               -            821     1e-54  184.0   0.6   1   1   1.8e-56   1.6e-53  180.0   0.6   283   820   247   759   216   760 0.87 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   1   2   8.8e-20   8.1e-17   58.6   0.0   265   554   230   514   216   546 0.84 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000867323.1       -            764 K20038               -            821   1.5e-54  183.4   0.1   2   2   4.4e-39     4e-36  122.5   0.0   633   819   568   762   554   764 0.91 MULTISPECIES: formate C-acetyltransferase [Salmonella]
+WP_000627811.1       -            127 K20038               -            821   3.5e-12   43.3   0.0   1   1   4.5e-15   4.1e-12   43.1   0.0   764   820    70   126    61   127 0.94 MULTISPECIES: autonomous glycyl radical cofactor GrcA [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001069886.1       -            263 K20037               -            313   7.6e-09   32.6   2.2   1   1   1.4e-11   1.2e-08   31.9   2.2    46   115    77   145    70   167 0.82 MULTISPECIES: RnfABCDGE type electron transport complex subunit B [Acinetobacter]
+WP_000276693.1       -            180 K20037               -            313   3.2e-08   30.5   1.4   1   1   4.9e-11   4.4e-08   30.1   1.4    58   110    57   117    55   139 0.87 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Acinetobacter]
+WP_000864073.1       -             81 K20037               -            313   3.7e-07   27.1   3.3   1   1   4.7e-10   4.2e-07   26.9   3.3    52   109    14    74     7    77 0.87 MULTISPECIES: ferredoxin family protein [Acinetobacter]
+WP_000144889.1       -            107 K20037               -            313   3.1e-06   24.0   2.7   1   1   3.6e-09   3.3e-06   24.0   2.7    57   110     5    58     1    76 0.76 MULTISPECIES: ferredoxin FdxA [Acinetobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000067822.1       -            374 K22443               -            371  1.4e-180  597.6   0.1   1   1  7.7e-184  1.6e-180  597.5   0.1     7   370    10   373     1   374 0.98 MULTISPECIES: carnitine monooxygenase, oxygenase subunit YeaW [Enterobacteriaceae]
+WP_000211172.1       -            453 K22443               -            371   1.6e-42  143.3   0.0   1   1   1.1e-45   2.4e-42  142.8   0.0    21   218    20   224     3   230 0.90 MULTISPECIES: 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000019425.1_ASM1942v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+YP_004994389.1       -            304 K22444               -            321  4.1e-144  477.4   1.5   1   1  1.5e-146  4.6e-144  477.2   1.5    15   321     2   304     1   304 0.99 putative dioxygenase subunit beta [Acinetobacter pittii PHEA-2]
+YP_004995605.1       -            317 K22444               -            321   4.4e-95  316.3   0.1   1   1   1.6e-97   4.8e-95  316.2   0.1     9   321     7   317     1   317 0.95 vanillate monooxygenase, oxidoreductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994663.1       -            314 K22444               -            321   1.2e-94  314.9   1.1   1   1   4.4e-97   1.3e-94  314.7   1.1     7   321     1   314     1   314 0.96 vanillate O-demethylase oxidoreductase (vanillate degradation ferredoxin-like protein) [Acinetobacter pittii PHEA-2]
+YP_004994738.1       -            353 K22444               -            321   6.4e-32  108.7   0.2   1   2   3.2e-11   9.7e-09   32.6   0.2   235   312     3    81     1    88 0.79 phenol 2-monooxygenase [Acinetobacter pittii PHEA-2]
+YP_004994738.1       -            353 K22444               -            321   6.4e-32  108.7   0.2   2   2   2.9e-23   8.8e-21   72.1   0.0     7   229   105   338   100   350 0.80 phenol 2-monooxygenase [Acinetobacter pittii PHEA-2]
+YP_004995384.1       -            344 K22444               -            321   1.1e-31  108.0   0.1   1   2   2.2e-09   6.5e-07   26.6   0.2   246   315    19    89     4    93 0.81 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004995384.1       -            344 K22444               -            321   1.1e-31  108.0   0.1   2   2   2.2e-25   6.5e-23   79.1   0.0     7   229   109   341   102   344 0.77 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994732.1       -            338 K22444               -            321   3.5e-28   96.5   0.0   1   2   7.6e-08   2.3e-05   21.5   0.1   246   314    18    89     7    93 0.87 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004994732.1       -            338 K22444               -            321   3.5e-28   96.5   0.0   2   2   2.4e-23   7.2e-21   72.4   0.0     5   227   107   337   102   338 0.75 benzoate 1,2-dioxygenase ferredoxin reductase subunit [Acinetobacter pittii PHEA-2]
+YP_004996194.1       -            356 K22444               -            321   2.4e-27   93.7   0.2   1   1   9.6e-30   2.9e-27   93.4   0.2    24   321    57   356    37   356 0.77 flavodoxin reductase(ferredoxin-NADPH reductase) family1 [Acinetobacter pittii PHEA-2]
+YP_004994954.1       -            281 K22444               -            321   1.2e-26   91.4   0.1   1   1   7.5e-29   2.2e-26   90.5   0.1     8   248     6   267     1   277 0.76 phenylacetate-CoA oxygenase/reductase subunit PaaK [Acinetobacter pittii PHEA-2]
+YP_004997225.1       -            341 K22444               -            321   5.9e-24   82.6   2.6   1   1   2.4e-26   7.1e-24   82.3   2.6     8   314    34   335    27   341 0.78 putative oxidoreductase [Acinetobacter pittii PHEA-2]
+YP_004994302.1       -            253 K22444               -            321   2.6e-14   50.8   0.0   1   2   8.6e-14   2.6e-11   41.0   0.0     9   161     9   162     1   171 0.81 ferredoxin--NADP+ reductase [Acinetobacter pittii PHEA-2]
+YP_004994302.1       -            253 K22444               -            321   2.6e-14   50.8   0.0   2   2     0.001      0.31    7.9   0.0   180   217   202   239   191   248 0.84 ferredoxin--NADP+ reductase [Acinetobacter pittii PHEA-2]
+YP_004994955.1       -             79 K22444               -            321   2.5e-09   34.5   0.0   1   1   9.2e-12   2.7e-09   34.4   0.0   247   318     4    74     1    77 0.90 multicomponent oxygenase/reductase subunit for phenylacetic acid degradation [Acinetobacter pittii PHEA-2]
+YP_004996522.1       -            862 K22444               -            321   3.7e-07   27.4   0.0   1   1     2e-09   6.1e-07   26.6   0.0    43   200   656   828   625   848 0.67 putative bifunctional protein [Acinetobacter pittii PHEA-2]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000191145.1_ASM19114v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000191145.1_ASM19114v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000191145.1_ASM19114v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_416317.1          -            321 K22444               -            321  5.7e-163  539.6   0.3   1   1  1.3e-165  6.4e-163  539.5   0.3     1   321     1   321     1   321 1.00 carnitine monooxygenase subunit YeaX [Escherichia coli str. K-12 substr. MG1655]
+NP_415910.1          -            356 K22444               -            321   1.5e-33  114.3   0.0   1   1   1.2e-35   5.9e-33  112.4   0.0     8   320     6   349     1   350 0.78 phenylacetyl-CoA 1,2-epoxidase, reductase subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_415393.1          -            322 K22444               -            321   3.3e-31  106.6   0.0   1   1   8.8e-34   4.2e-31  106.3   0.0     8   308    11   311     3   321 0.79 NADH oxidoreductase [Escherichia coli str. K-12 substr. MG1655]
+NP_417047.1          -            396 K22444               -            321   1.7e-22   78.0   0.0   1   1   1.1e-24   5.4e-22   76.4   0.0    16   226   162   391   152   395 0.73 nitric oxide dioxygenase [Escherichia coli str. K-12 substr. MG1655]
+NP_416739.1          -             84 K22444               -            321   1.1e-11   42.5   0.5   1   1     3e-14   1.4e-11   42.1   0.5   237   315     4    79     2    82 0.83 ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Escherichia coli str. K-12 substr. MG1655]
+NP_415467.1          -            369 K22444               -            321   2.1e-08   31.7   0.3   1   1   6.6e-11   3.1e-08   31.1   0.3   236   288   290   341   278   365 0.88 6-N-hydroxylaminopurine resistance protein [Escherichia coli str. K-12 substr. MG1655]
+NP_417244.1          -            599 K22444               -            321   5.3e-08   30.4   0.0   1   1   1.8e-10   8.7e-08   29.7   0.0    56   209   386   565   377   579 0.64 sulfite reductase, flavoprotein subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_418359.1          -            248 K22444               -            321   3.4e-06   24.4   0.0   1   1     3e-08   1.4e-05   22.4   0.0     9   213     7   228     1   237 0.61 flavodoxin/ferredoxin-NADP(+) reductase [Escherichia coli str. K-12 substr. MG1655]
+NP_418286.1          -            233 K22444               -            321   7.4e-06   23.3   0.0   1   1   3.1e-08   1.5e-05   22.4   0.0     7   124     4   115     1   148 0.86 NAD(P)H-flavin reductase [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000146428.1       -            318 K22444               -            321  6.2e-149  493.2   1.1   1   1    2e-151  7.1e-149  493.0   1.1     2   321     3   318     2   318 0.99 MULTISPECIES: carnitine monooxygenase, reductase subunit CntB [Acinetobacter]
+WP_000210290.1       -            317 K22444               -            321   7.3e-95  315.6   0.1   1   1   2.2e-97     8e-95  315.4   0.1     9   321     7   317     1   317 0.95 MULTISPECIES: PDR/VanB family oxidoreductase [Acinetobacter]
+WP_000382531.1       -            314 K22444               -            321   1.3e-93  311.5   1.3   1   1   3.9e-96   1.4e-93  311.3   1.3     7   321     1   314     1   314 0.96 PDR/VanB family oxidoreductase [Acinetobacter baumannii]
+WP_000077460.1       -            353 K22444               -            321   1.1e-37  127.7   0.8   1   1     6e-40   2.2e-37  126.7   0.8     8   319     6   349     1   351 0.75 MULTISPECIES: 1,2-phenylacetyl-CoA epoxidase subunit PaaE [Acinetobacter]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   1   2   1.4e-09   5.2e-07   26.9   0.3   246   315    19    89     4    93 0.81 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_100223321.1       -            344 K22444               -            321     2e-31  107.1   0.1   2   2   4.1e-25   1.5e-22   78.0   0.0     7   229   109   341   102   344 0.77 anthranilate 1,2-dioxygenase electron transfer component AntC [Acinetobacter baumannii]
+WP_001147894.1       -            356 K22444               -            321   4.6e-28   96.1   0.3   1   1   1.5e-30   5.6e-28   95.8   0.3    33   321    64   356    37   356 0.78 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   1   2   6.9e-08   2.5e-05   21.4   0.2   246   314    18    89     5    93 0.86 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000064950.1       -            338 K22444               -            321   9.8e-28   95.0   0.0   2   2   5.1e-23   1.9e-20   71.1   0.0     5   227   107   337   102   338 0.75 benzoate 1,2-dioxygenase electron transfer component BenC [Acinetobacter baumannii]
+WP_000994548.1       -            341 K22444               -            321     4e-24   83.1   3.4   1   1   1.3e-26   4.8e-24   82.9   3.4     8   314    34   335    27   341 0.79 MULTISPECIES: ferredoxin reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   1   2   4.7e-14   1.7e-11   41.6   0.0     9   161     9   162     1   171 0.81 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000021173.1       -            253 K22444               -            321   2.1e-14   51.2   0.0   2   2     0.001      0.37    7.6   0.0   185   217   207   239   190   248 0.83 MULTISPECIES: ferredoxin--NADP reductase [Acinetobacter]
+WP_000473047.1       -            848 K22444               -            321   1.1e-06   25.9   0.0   1   1   4.9e-09   1.8e-06   25.1   0.0    45   202   644   816   611   836 0.63 PepSY domain-containing protein [Acinetobacter baumannii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_418386.1          -            765 K20038               -            821  2.6e-215  715.1   0.0   1   1    8e-218  6.9e-215  713.7   0.0    33   819     1   764     1   765 0.96 putative formate acetyltransferase 2 [Escherichia coli str. K-12 substr. MG1655]
+NP_415344.1          -            810 K20038               -            821  3.4e-203  675.0   0.0   1   1  5.2e-206  4.4e-203  674.6   0.0    31   818     7   808     2   809 0.95 putative pyruvate formate lyase [Escherichia coli str. K-12 substr. MG1655]
+YP_026205.1          -            764 K20038               -            821   1.1e-55  187.1   0.0   1   2   3.2e-20   2.7e-17   60.1   0.0   261   554   226   514   215   545 0.86 2-ketobutyrate formate-lyase/pyruvate formate-lyase 4 [Escherichia coli str. K-12 substr. MG1655]
+YP_026205.1          -            764 K20038               -            821   1.1e-55  187.1   0.0   2   2     1e-39   8.7e-37  124.6   0.0   633   819   568   762   552   764 0.91 2-ketobutyrate formate-lyase/pyruvate formate-lyase 4 [Escherichia coli str. K-12 substr. MG1655]
+NP_415423.1          -            760 K20038               -            821   1.7e-53  179.8   0.5   1   1   3.3e-55   2.9e-52  175.8   0.5   284   820   248   759   220   760 0.88 pyruvate formate-lyase [Escherichia coli str. K-12 substr. MG1655]
+NP_417074.1          -            127 K20038               -            821   3.4e-12   43.3   0.0   1   1   4.8e-15   4.2e-12   43.0   0.0   764   820    70   126    64   127 0.94 stress-induced alternate pyruvate formate-lyase subunit [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000576947.1       -            299 K20037               -            313   5.7e-84  279.7   0.0   1   1   2.5e-86   6.4e-84  279.6   0.0    11   310     1   297     1   299 0.93 MULTISPECIES: glycyl-radical enzyme activating protein [Salmonella]
+WP_000171724.1       -            292 K20037               -            313   6.4e-78  259.9   0.0   1   2   8.9e-29   2.3e-26   90.5   1.3     6    69    18    81    14    84 0.95 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Salmonella]
+WP_000171724.1       -            292 K20037               -            313   6.4e-78  259.9   0.0   2   2   6.7e-54   1.7e-51  173.1   0.0    91   309    75   289    74   291 0.99 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Salmonella]
+WP_000067973.1       -            265 K20037               -            313   4.7e-60  201.2   3.1   1   2   4.1e-12     1e-09   35.8   1.3    10    49    24    63    15    66 0.86 MULTISPECIES: pyruvate formate lyase 1-activating protein [Salmonella]
+WP_000067973.1       -            265 K20037               -            313   4.7e-60  201.2   3.1   2   2   1.2e-51     3e-49  165.7   0.0   111   308    67   263    63   265 0.96 MULTISPECIES: pyruvate formate lyase 1-activating protein [Salmonella]
+WP_001064938.1       -            287 K20037               -            313     5e-47  158.4   1.1   1   1   2.5e-49   6.5e-47  158.0   1.1     7   255     3   238     1   255 0.92 MULTISPECIES: YjjW family glycine radical enzyme activase [Salmonella]
+WP_000247788.1       -            287 K20037               -            313   2.4e-11   41.1  17.8   1   2   2.9e-07   7.3e-05   19.9   3.4    62   108    24    68    13    78 0.87 MULTISPECIES: 4Fe-4S binding protein [Salmonella]
+WP_000247788.1       -            287 K20037               -            313   2.4e-11   41.1  17.8   2   2   7.5e-10   1.9e-07   28.4   4.9    57   109   189   239   182   248 0.89 MULTISPECIES: 4Fe-4S binding protein [Salmonella]
+WP_000091673.1       -            231 K20037               -            313   2.2e-08   31.4  10.7   1   2     9e-09   2.3e-06   24.8   0.7    58   110    58   119    52   138 0.84 MULTISPECIES: ferredoxin-type protein NapG [Salmonella]
+WP_000091673.1       -            231 K20037               -            313   2.2e-08   31.4  10.7   2   2   7.8e-05      0.02   11.9   3.1    54   105   132   199   126   212 0.67 MULTISPECIES: ferredoxin-type protein NapG [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   1   3      0.03       7.5    3.4   9.8    48   106     4    80     2    81 0.69 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   2   3   2.9e-08   7.5e-06   23.1   6.0    52   104    55   108    44   115 0.82 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_001016236.1       -            192 K20037               -            313     6e-08   30.0  16.5   3   3   4.1e-07   0.00011   19.4   2.7    54   109    89   150    85   176 0.80 MULTISPECIES: thiosulfate reductase electron transport protein PhsB [Salmonella]
+WP_000493767.1       -            180 K20037               -            313   7.9e-08   29.6   4.2   1   1   3.1e-10   7.9e-08   29.6   4.2    57   110    36    93    25   110 0.83 MULTISPECIES: formate hydrogenlyase subunit HycF [Salmonella]
+WP_000172747.1       -            180 K20037               -            313     1e-07   29.2   1.5   1   1   5.4e-10   1.4e-07   28.8   1.5    58   110    57   117    55   132 0.90 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Enterobacteriaceae]
+WP_001092597.1       -            192 K20037               -            313   1.4e-07   28.8   7.1   1   1   8.3e-10   2.1e-07   28.2   7.1    55   109   111   164    96   173 0.87 MULTISPECIES: electron transport complex subunit RsxB [Salmonella]
+WP_000228070.1       -            163 K20037               -            313   5.7e-07   26.8  17.1   1   2     1e-06   0.00026   18.1   4.2    56   105    31    81    24    84 0.88 MULTISPECIES: ferredoxin-type protein NapF [Salmonella]
+WP_000228070.1       -            163 K20037               -            313   5.7e-07   26.8  17.1   2   2   1.3e-05    0.0032   14.5   5.2    59   110   104   158    93   163 0.81 MULTISPECIES: ferredoxin-type protein NapF [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   1   3    0.0027      0.68    6.8   2.1    87   108     7    28     1    52 0.58 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   2   3   1.3e-07   3.4e-05   21.0   8.4    57   114    54   111    47   126 0.82 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_001078820.1       -            157 K20037               -            313   7.9e-07   26.3  22.5   3   3   1.2e-06   0.00031   17.8   6.2    53   111    81   143    79   154 0.73 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Salmonella]
+WP_000020685.1       -            337 K20037               -            313   8.8e-07   26.2   9.2   1   1   6.2e-09   1.6e-06   25.3   9.2    47   108   166   228   147   236 0.78 MULTISPECIES: sulfite reductase subunit C [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   1   3    0.0039      0.99    6.3   1.1    53    73    38    58    30    71 0.77 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   2   3   2.2e-07   5.6e-05   20.3   4.0    44   109    75   142    73   152 0.77 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001278030.1       -            223 K20037               -            313     1e-06   26.0  12.8   3   3   1.1e-06   0.00028   18.0   1.5    56   129   120   199   115   206 0.69 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Salmonella]
+WP_001523928.1       -            244 K20037               -            313   2.3e-06   24.8  12.9   1   2     0.005       1.3    6.0   0.9    50    84    42    76    33    95 0.64 MULTISPECIES: tetrathionate reductase subunit TtrB [Salmonella]
+WP_001523928.1       -            244 K20037               -            313   2.3e-06   24.8  12.9   2   2   1.7e-08   4.4e-06   23.9   5.4    58   118    97   158    85   167 0.77 MULTISPECIES: tetrathionate reductase subunit TtrB [Salmonella]
+WP_001078791.1       -            181 K20037               -            313   2.3e-06   24.8   5.5   1   2    0.0057       1.4    5.8   2.6    86   105     6    25     1    45 0.79 MULTISPECIES: electron transport protein HydN [Salmonella]
+WP_001078791.1       -            181 K20037               -            313   2.3e-06   24.8   5.5   2   2   9.2e-09   2.3e-06   24.8   5.5    58   111    55   108    37   115 0.85 MULTISPECIES: electron transport protein HydN [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   1   3    0.0066       1.7    5.5   0.2    80   104    28    51     2    65 0.73 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   2   3   8.9e-07   0.00023   18.3   2.3    49   103    88   144    85   146 0.85 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000331361.1       -            300 K20037               -            313   2.5e-06   24.7  11.4   3   3   5.3e-07   0.00013   19.0   1.9    54   113   126   190   119   205 0.78 MULTISPECIES: formate dehydrogenase subunit beta [Salmonella]
+WP_000816143.1       -            208 K20037               -            313   4.1e-06   24.0   4.3   1   2     0.026       6.7    3.6   0.3    55    73     7    25     1    36 0.64 MULTISPECIES: DMSO/selenate family reductase complex B subunit [Salmonella]
+WP_000816143.1       -            208 K20037               -            313   4.1e-06   24.0   4.3   2   2   1.6e-08   4.1e-06   24.0   4.3    41   112    46   119    44   127 0.84 MULTISPECIES: DMSO/selenate family reductase complex B subunit [Salmonella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+YP_004994387.1       -            371 K22443               -            371  6.2e-176  582.2   1.7   1   1  1.5e-178  6.9e-176  582.0   1.7     1   369     1   370     1   371 0.99 dioxygenase, alpha subunit [Acinetobacter pittii PHEA-2]
+YP_004995608.1       -            425 K22443               -            371     3e-53  178.5   0.0   1   1   9.7e-56   4.4e-53  177.9   0.0    21   223    23   229     5   242 0.93 ring hydroxylating dioxygenase, alpha subunit/Rieske (2Fe-2S) protein [Acinetobacter pittii PHEA-2]
+YP_004995386.1       -            471 K22443               -            371   3.5e-51  171.7   0.1   1   1     2e-53     9e-51  170.3   0.0    21   223    28   236    16   253 0.89 anthranilate dioxygenase large subunit [Acinetobacter pittii PHEA-2]
+YP_004994734.1       -            460 K22443               -            371   1.4e-46  156.5   0.4   1   1   1.9e-48   8.4e-46  154.0   0.2    18   252    27   269    13   281 0.88 benzoate 1,2-dioxygenase subunit alpha [Acinetobacter pittii PHEA-2]
+YP_004996687.1       -            351 K22443               -            371   2.5e-13   47.1   0.0   1   1   3.9e-15   1.7e-12   44.3   0.0    30   151    16   134     6   144 0.90 putative vanillate O-demethylase oxygenase subunit (4-hydroxy-3-methoxybenzoate demethylase) [Acinetobacter pittii PHEA-2]
+YP_004994493.1       -            355 K22443               -            371   1.8e-11   41.0   0.8   1   1   1.3e-13   5.7e-11   39.3   0.8    65   233    42   201    19   268 0.68 vanillate O-demethylase oxygenase subunit (4-hydroxy-3-methoxybenzoate demethylase) [Acinetobacter pittii PHEA-2]
+YP_004994664.1       -            358 K22443               -            371   1.5e-10   38.0   1.5   1   2   4.4e-12     2e-09   34.3   0.5    41   212     4   161     1   177 0.75 vanillate O-demethylase oxygenase subunit (4-hydroxy-3-methoxybenzoate demethylase) [Acinetobacter pittii PHEA-2]
+YP_004994664.1       -            358 K22443               -            371   1.5e-10   38.0   1.5   2   2     0.066        30    0.8   0.0   281   334   253   309   242   335 0.68 vanillate O-demethylase oxygenase subunit (4-hydroxy-3-methoxybenzoate demethylase) [Acinetobacter pittii PHEA-2]
+YP_004994491.1       -            101 K22443               -            371   8.6e-06   22.3   0.0   1   1   2.2e-08   9.7e-06   22.1   0.0    43   127     2    85     1    94 0.87 putative ferredoxin [Acinetobacter pittii PHEA-2]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000191145.1_ASM19114v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000191145.1_ASM19114v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000191145.1_ASM19114v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000184811.1       -            765 K20038               -            821  2.5e-215  715.1   0.0   1   1    8e-218  6.6e-215  713.7   0.0    33   819     1   764     1   765 0.96 MULTISPECIES: formate C-acetyltransferase [Enterobacteriaceae]
+WP_000209309.1       -            810 K20038               -            821  3.3e-203  675.0   0.0   1   1  5.2e-206  4.3e-203  674.6   0.0    31   818     7   808     2   809 0.95 MULTISPECIES: glycyl radical protein [Escherichia]
+WP_000861734.1       -            764 K20038               -            821   1.1e-55  187.1   0.0   1   2   3.2e-20   2.6e-17   60.1   0.0   261   554   226   514   215   545 0.86 MULTISPECIES: 2-ketobutyrate formate-lyase/pyruvate formate-lyase [Enterobacteriaceae]
+WP_000861734.1       -            764 K20038               -            821   1.1e-55  187.1   0.0   2   2     1e-39   8.3e-37  124.6   0.0   633   819   568   762   552   764 0.91 MULTISPECIES: 2-ketobutyrate formate-lyase/pyruvate formate-lyase [Enterobacteriaceae]
+WP_001292822.1       -            760 K20038               -            821   1.7e-53  179.8   0.5   1   1   3.3e-55   2.8e-52  175.8   0.5   284   820   248   759   220   760 0.88 MULTISPECIES: formate C-acetyltransferase [Enterobacteriaceae]
+WP_000627807.1       -            127 K20038               -            821   3.2e-12   43.3   0.0   1   1   4.8e-15     4e-12   43.0   0.0   764   820    70   126    64   127 0.94 MULTISPECIES: autonomous glycyl radical cofactor GrcA [Bacteria]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000019425.1_ASM1942v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:12 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_019331655.1_ASM1933165v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_019331655.1_ASM1933165v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_019331655.1_ASM1933165v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_000191145.1_ASM19114v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000191145.1_ASM19114v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_000191145.1_ASM19114v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_001997115.1_ASM199711v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_001997115.1_ASM199711v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_001997115.1_ASM199711v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+YP_004994576.1       -            263 K20037               -            313   8.5e-09   32.5   2.2   1   1   7.9e-12   1.4e-08   31.7   2.2    46   114    77   144    70   167 0.83 putative iron-sulfur protein [Acinetobacter pittii PHEA-2]
+YP_004995349.1       -             81 K20037               -            313   3.7e-07   27.1   3.3   1   1   2.3e-10   4.2e-07   26.9   3.3    52   109    14    74     7    77 0.87 adenylylsulfate reductase subunit beta [Acinetobacter pittii PHEA-2]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_000191145.1_ASM19114v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000191145.1_ASM19114v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_000191145.1_ASM19114v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001287026.1       -            321 K22444               -            321  5.5e-163  539.6   0.3   1   1  1.3e-165  6.2e-163  539.5   0.3     1   321     1   321     1   321 1.00 MULTISPECIES: carnitine monooxygenase reductase subunit YeaX [Enterobacteriaceae]
+WP_000206388.1       -            356 K22444               -            321   1.5e-33  114.3   0.0   1   1   1.2e-35   5.8e-33  112.4   0.0     8   320     6   349     1   350 0.78 MULTISPECIES: 1,2-phenylacetyl-CoA epoxidase subunit PaaE [Enterobacteriaceae]
+WP_000178677.1       -            322 K22444               -            321   3.3e-31  106.6   0.0   1   1   8.8e-34   4.1e-31  106.3   0.0     8   308    11   311     3   321 0.79 MULTISPECIES: NADH oxidoreductase [Enterobacteriaceae]
+WP_000883122.1       -            396 K22444               -            321   1.7e-22   78.0   0.0   1   1   1.1e-24   5.3e-22   76.4   0.0    16   226   162   391   152   395 0.73 MULTISPECIES: NO-inducible flavohemoprotein [Enterobacteriaceae]
+WP_000135040.1       -             84 K22444               -            321   1.1e-11   42.5   0.5   1   1     3e-14   1.4e-11   42.1   0.5   237   315     4    79     2    82 0.83 MULTISPECIES: ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Pseudomonadota]
+WP_000212426.1       -            369 K22444               -            321     2e-08   31.7   0.3   1   1   6.6e-11   3.1e-08   31.1   0.3   236   288   290   341   278   365 0.88 MULTISPECIES: 6-N-hydroxylaminopurine resistance protein YcbX [Enterobacteriaceae]
+WP_000211913.1       -            599 K22444               -            321   5.2e-08   30.4   0.0   1   1   1.8e-10   8.5e-08   29.7   0.0    56   209   386   565   377   579 0.64 MULTISPECIES: NADPH-dependent assimilatory sulfite reductase flavoprotein subunit [Escherichia]
+WP_000796332.1       -            248 K22444               -            321   3.3e-06   24.4   0.0   1   1     3e-08   1.4e-05   22.4   0.0     9   213     7   228     1   237 0.61 MULTISPECIES: ferredoxin--NADP(+) reductase [Enterobacteriaceae]
+WP_000209826.1       -            233 K22444               -            321   7.3e-06   23.3   0.0   1   1   3.1e-08   1.4e-05   22.4   0.0     7   124     4   115     1   148 0.86 MULTISPECIES: NAD(P)H-flavin reductase [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000010245.2_ASM1024v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000010245.2_ASM1024v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000010245.2_ASM1024v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000067822.1       -            374 K22443               -            371  1.5e-180  597.6   0.1   1   1  7.7e-184  1.6e-180  597.5   0.1     7   370    10   373     1   374 0.98 MULTISPECIES: carnitine monooxygenase, oxygenase subunit YeaW [Enterobacteriaceae]
+WP_000211172.1       -            453 K22443               -            371   1.7e-42  143.3   0.0   1   1   1.1e-45   2.4e-42  142.8   0.0    21   218    20   224     3   230 0.90 MULTISPECIES: 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm
+# Target file:     example/protein/GCF_000010245.2_ASM1024v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000010245.2_ASM1024v1_protein_cntA.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntA.hmm example/protein/GCF_000010245.2_ASM1024v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001287026.1       -            321 K22444               -            321  5.5e-163  539.6   0.3   1   1  1.3e-165  6.1e-163  539.5   0.3     1   321     1   321     1   321 1.00 MULTISPECIES: carnitine monooxygenase reductase subunit YeaX [Enterobacteriaceae]
+WP_000206388.1       -            356 K22444               -            321   1.5e-33  114.3   0.0   1   1   1.2e-35   5.7e-33  112.4   0.0     8   320     6   349     1   350 0.78 MULTISPECIES: 1,2-phenylacetyl-CoA epoxidase subunit PaaE [Enterobacteriaceae]
+WP_000178677.1       -            322 K22444               -            321   3.2e-31  106.6   0.0   1   1   8.8e-34     4e-31  106.3   0.0     8   308    11   311     3   321 0.79 MULTISPECIES: NADH oxidoreductase [Enterobacteriaceae]
+WP_000883122.1       -            396 K22444               -            321   1.7e-22   78.0   0.0   1   1   1.1e-24   5.2e-22   76.4   0.0    16   226   162   391   152   395 0.73 MULTISPECIES: NO-inducible flavohemoprotein [Enterobacteriaceae]
+WP_000135040.1       -             84 K22444               -            321   1.1e-11   42.5   0.5   1   1     3e-14   1.4e-11   42.1   0.5   237   315     4    79     2    82 0.83 MULTISPECIES: ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Pseudomonadota]
+WP_000212426.1       -            369 K22444               -            321     2e-08   31.7   0.3   1   1   6.6e-11     3e-08   31.1   0.3   236   288   290   341   278   365 0.88 MULTISPECIES: 6-N-hydroxylaminopurine resistance protein YcbX [Enterobacteriaceae]
+WP_000211913.1       -            599 K22444               -            321   5.1e-08   30.4   0.0   1   1   1.8e-10   8.4e-08   29.7   0.0    56   209   386   565   377   579 0.64 MULTISPECIES: NADPH-dependent assimilatory sulfite reductase flavoprotein subunit [Escherichia]
+WP_000796332.1       -            248 K22444               -            321   3.3e-06   24.4   0.0   1   1     3e-08   1.4e-05   22.4   0.0     9   213     7   228     1   237 0.61 MULTISPECIES: ferredoxin--NADP(+) reductase [Enterobacteriaceae]
+WP_000209826.1       -            233 K22444               -            321   7.1e-06   23.3   0.0   1   1   3.1e-08   1.4e-05   22.4   0.0     7   124     4   115     1   148 0.86 MULTISPECIES: NAD(P)H-flavin reductase [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000019425.1_ASM1942v1_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_415345.2          -            299 K20037               -            313   5.7e-87  289.5   0.0   1   1     3e-89   6.4e-87  289.4   0.0    11   310     1   297     1   299 0.94 putative pyruvate formate-lyase activating enzyme YbiY [Escherichia coli str. K-12 substr. MG1655]
+NP_418387.3          -            292 K20037               -            313   3.7e-80  267.1   0.0   1   2   6.1e-29   1.3e-26   91.2   1.8     7    70    19    82    13    85 0.93 putative pyruvate formate-lyase 2 activating enzyme PflC [Escherichia coli str. K-12 substr. MG1655]
+NP_418387.3          -            292 K20037               -            313   3.7e-80  267.1   0.0   2   2   1.3e-55   2.7e-53  178.9   0.0    92   310    76   290    76   292 0.99 putative pyruvate formate-lyase 2 activating enzyme PflC [Escherichia coli str. K-12 substr. MG1655]
+NP_415422.1          -            246 K20037               -            313   1.6e-60  202.7   3.6   1   2   6.7e-12   1.4e-09   35.2   1.5    10    49     5    44     1    47 0.88 pyruvate formate-lyase activating enzyme [Escherichia coli str. K-12 substr. MG1655]
+NP_415422.1          -            246 K20037               -            313   1.6e-60  202.7   3.6   2   2   2.5e-52   5.4e-50  168.0   0.0   111   308    48   244    44   246 0.96 pyruvate formate-lyase activating enzyme [Escherichia coli str. K-12 substr. MG1655]
+NP_418796.1          -            287 K20037               -            313   6.5e-46  154.6   0.8   1   1     4e-48   8.6e-46  154.2   0.8     8   255     4   238     1   256 0.92 putative glycyl-radical enzyme activating enzyme YjjW [Escherichia coli str. K-12 substr. MG1655]
+NP_416709.1          -            231 K20037               -            313     3e-08   30.9  11.2   1   2   1.2e-08   2.6e-06   24.5   0.7    59   112    59   121    53   138 0.85 ferredoxin-type protein NapG [Escherichia coli str. K-12 substr. MG1655]
+NP_416709.1          -            231 K20037               -            313     3e-08   30.9  11.2   2   2   0.00011     0.023   11.6   3.7    54   105   132   199   124   212 0.67 ferredoxin-type protein NapG [Escherichia coli str. K-12 substr. MG1655]
+NP_416189.1          -            208 K20037               -            313   4.2e-08   30.4  31.0   1   3     0.019       4.1    4.2   1.8    85   104    61    80    50   113 0.74 putative 4Fe-4S ferredoxin-like protein YdhY [Escherichia coli str. K-12 substr. MG1655]
+NP_416189.1          -            208 K20037               -            313   4.2e-08   30.4  31.0   2   3   2.6e-07   5.6e-05   20.2  11.4    54   116   116   180   113   182 0.84 putative 4Fe-4S ferredoxin-like protein YdhY [Escherichia coli str. K-12 substr. MG1655]
+NP_416189.1          -            208 K20037               -            313   4.2e-08   30.4  31.0   3   3   3.3e-08   7.1e-06   23.1  11.6    51   110   146   201   143   208 0.84 putative 4Fe-4S ferredoxin-like protein YdhY [Escherichia coli str. K-12 substr. MG1655]
+NP_416145.1          -            192 K20037               -            313   7.7e-08   29.6   6.0   1   1   3.6e-10   7.7e-08   29.6   6.0    54   109   110   164   101   173 0.88 SoxR [2Fe-2S] reducing system protein RsxB [Escherichia coli str. K-12 substr. MG1655]
+NP_416784.1          -            180 K20037               -            313   1.1e-07   29.0   2.0   1   1   6.9e-10   1.5e-07   28.6   2.0    58   110    57   117    55   134 0.88 NADH:quinone oxidoreductase subunit I [Escherichia coli str. K-12 substr. MG1655]
+NP_417362.4          -            162 K20037               -            313   1.2e-07   29.0  17.9   1   3    0.0083       1.8    5.4   1.3    88   103     8    23     1    30 0.80 putative electron transport protein YgfS [Escherichia coli str. K-12 substr. MG1655]
+NP_417362.4          -            162 K20037               -            313   1.2e-07   29.0  17.9   2   3     3e-07   6.5e-05   20.0   5.0    60   110    54   104    39   116 0.80 putative electron transport protein YgfS [Escherichia coli str. K-12 substr. MG1655]
+NP_417362.4          -            162 K20037               -            313   1.2e-07   29.0  17.9   3   3   1.1e-07   2.3e-05   21.4   5.0    53   112    78   143    71   152 0.73 putative electron transport protein YgfS [Escherichia coli str. K-12 substr. MG1655]
+NP_417200.1          -            180 K20037               -            313   1.2e-07   28.9   3.9   1   1   5.6e-10   1.2e-07   28.9   3.9    58   110    37    93    22   112 0.84 formate hydrogenlyase subunit HycF [Escherichia coli str. K-12 substr. MG1655]
+NP_418030.1          -            157 K20037               -            313   1.3e-07   28.8  25.6   1   3    0.0059       1.3    5.9   2.9    86   105     6    25     2    45 0.67 putative electron transport protein YsaA [Escherichia coli str. K-12 substr. MG1655]
+NP_418030.1          -            157 K20037               -            313   1.3e-07   28.8  25.6   2   3   8.6e-08   1.9e-05   21.7  10.0    58   117    55   114    37   121 0.83 putative electron transport protein YsaA [Escherichia coli str. K-12 substr. MG1655]
+NP_418030.1          -            157 K20037               -            313   1.3e-07   28.8  25.6   3   3   4.2e-07     9e-05   19.5   7.6    52   113    80   145    77   155 0.75 putative electron transport protein YsaA [Escherichia coli str. K-12 substr. MG1655]
+NP_416983.1          -            181 K20037               -            313   2.5e-07   27.9   6.6   1   1   1.2e-09   2.5e-07   27.9   6.6    58   111    37    94    30   108 0.82 hydrogenase 4 component H [Escherichia coli str. K-12 substr. MG1655]
+NP_415512.1          -            357 K20037               -            313   3.5e-07   27.4   3.6   1   1   2.4e-09   5.2e-07   26.8   3.6    52   106   242   292   234   303 0.80 putative electron transport protein YccM [Escherichia coli str. K-12 substr. MG1655]
+NP_418496.1          -            223 K20037               -            313   4.1e-07   27.2  12.4   1   3    0.0062       1.3    5.8   6.7    52   106    37   108    32   109 0.76 putative menaquinol-cytochrome c reductase 4Fe-4S subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_418496.1          -            223 K20037               -            313   4.1e-07   27.2  12.4   2   3     5e-07   0.00011   19.2   4.5    45   109    76   142    73   152 0.75 putative menaquinol-cytochrome c reductase 4Fe-4S subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_418496.1          -            223 K20037               -            313   4.1e-07   27.2  12.4   3   3   3.4e-07   7.3e-05   19.8   1.0    56   128   120   198   113   206 0.71 putative menaquinol-cytochrome c reductase 4Fe-4S subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_416186.4          -            222 K20037               -            313   6.9e-07   26.4  15.3   1   3   0.00044     0.095    9.6   0.8    46    82    31    67    10    79 0.67 putative 4Fe-4S ferredoxin-like protein YdhX [Escherichia coli str. K-12 substr. MG1655]
+NP_416186.4          -            222 K20037               -            313   6.9e-07   26.4  15.3   2   3   4.8e-08     1e-05   22.6   5.5    50   106    81   138    73   153 0.86 putative 4Fe-4S ferredoxin-like protein YdhX [Escherichia coli str. K-12 substr. MG1655]
+NP_416186.4          -            222 K20037               -            313   6.9e-07   26.4  15.3   3   3   9.7e-06    0.0021   15.0   1.9    54   113   117   181   114   204 0.63 putative 4Fe-4S ferredoxin-like protein YdhX [Escherichia coli str. K-12 substr. MG1655]
+NP_418329.1          -            300 K20037               -            313   1.7e-06   25.2  10.9   1   3    0.0047         1    6.2   0.1    75   104    23    51     2    67 0.74 formate dehydrogenase O subunit beta [Escherichia coli str. K-12 substr. MG1655]
+NP_418329.1          -            300 K20037               -            313   1.7e-06   25.2  10.9   2   3   7.5e-07   0.00016   18.7   2.0    49   103    88   144    85   147 0.85 formate dehydrogenase O subunit beta [Escherichia coli str. K-12 substr. MG1655]
+NP_418329.1          -            300 K20037               -            313   1.7e-06   25.2  10.9   3   3     6e-07   0.00013   19.0   1.8    54   114   126   191   120   205 0.75 formate dehydrogenase O subunit beta [Escherichia coli str. K-12 substr. MG1655]
+NP_417193.1          -            175 K20037               -            313   3.1e-06   24.3   5.7   1   2    0.0058       1.2    5.9   2.6    86   105     6    25     1    46 0.79 putative electron transport protein HydN [Escherichia coli str. K-12 substr. MG1655]
+NP_417193.1          -            175 K20037               -            313   3.1e-06   24.3   5.7   2   2   1.4e-08   3.1e-06   24.3   5.7    59   111    56   108    37   115 0.84 putative electron transport protein HydN [Escherichia coli str. K-12 substr. MG1655]
+NP_416106.1          -            205 K20037               -            313   4.4e-06   23.8  10.9   1   2     0.009       1.9    5.3   0.1    51    72     4    25     1    40 0.72 putative oxidoreductase YnfG [Escherichia coli str. K-12 substr. MG1655]
+NP_416106.1          -            205 K20037               -            313   4.4e-06   23.8  10.9   2   2   8.9e-08   1.9e-05   21.7   5.6    55   113    61   120    46   138 0.78 putative oxidoreductase YnfG [Escherichia coli str. K-12 substr. MG1655]
+NP_416708.1          -            287 K20037               -            313   6.2e-06   23.3   3.6   1   1   4.4e-08   9.4e-06   22.7   3.6    57   112   222   280   194   285 0.82 ferredoxin-type protein NapH [Escherichia coli str. K-12 substr. MG1655]
+NP_416712.1          -            164 K20037               -            313   8.5e-06   22.8  20.0   1   3   1.7e-06   0.00037   17.5   7.4    59   105    35    82    29    90 0.91 ferredoxin-type protein [Escherichia coli str. K-12 substr. MG1655]
+NP_416712.1          -            164 K20037               -            313   8.5e-06   22.8  20.0   2   3   1.6e-06   0.00034   17.6   3.3    53   107    61   122    55   126 0.81 ferredoxin-type protein [Escherichia coli str. K-12 substr. MG1655]
+NP_416712.1          -            164 K20037               -            313   8.5e-06   22.8  20.0   3   3   0.00036     0.076    9.9   0.5    55    78   135   158   127   164 0.77 ferredoxin-type protein [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001295295.1       -            299 K20037               -            313   5.5e-87  289.5   0.0   1   1     3e-89   6.1e-87  289.4   0.0    11   310     1   297     1   299 0.94 MULTISPECIES: glycyl-radical enzyme activating protein [Enterobacteriaceae]
+WP_000204105.1       -            292 K20037               -            313   3.6e-80  267.1   0.0   1   2   6.1e-29   1.3e-26   91.2   1.8     7    70    19    82    13    85 0.93 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Enterobacteriaceae]
+WP_000204105.1       -            292 K20037               -            313   3.6e-80  267.1   0.0   2   2   1.3e-55   2.6e-53  178.9   0.0    92   310    76   290    76   292 0.99 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Enterobacteriaceae]
+WP_000111043.1       -            246 K20037               -            313   1.5e-60  202.7   3.6   1   2   6.7e-12   1.4e-09   35.2   1.5    10    49     5    44     1    47 0.88 MULTISPECIES: pyruvate formate lyase 1-activating protein [Gammaproteobacteria]
+WP_000111043.1       -            246 K20037               -            313   1.5e-60  202.7   3.6   2   2   2.5e-52   5.2e-50  168.0   0.0   111   308    48   244    44   246 0.96 MULTISPECIES: pyruvate formate lyase 1-activating protein [Gammaproteobacteria]
+WP_001088415.1       -            287 K20037               -            313   6.2e-46  154.6   0.8   1   1     4e-48   8.2e-46  154.2   0.8     8   255     4   238     1   256 0.92 MULTISPECIES: YjjW family glycine radical enzyme activase [Enterobacteriaceae]
+WP_000091291.1       -            231 K20037               -            313   2.9e-08   30.9  11.2   1   2   1.2e-08   2.5e-06   24.5   0.7    59   112    59   121    53   138 0.85 MULTISPECIES: ferredoxin-type protein NapG [Enterobacteriaceae]
+WP_000091291.1       -            231 K20037               -            313   2.9e-08   30.9  11.2   2   2   0.00011     0.022   11.6   3.7    54   105   132   199   124   212 0.67 MULTISPECIES: ferredoxin-type protein NapG [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313     4e-08   30.4  31.0   1   3     0.019       3.9    4.2   1.8    85   104    61    80    50   113 0.74 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313     4e-08   30.4  31.0   2   3   2.6e-07   5.4e-05   20.2  11.4    54   116   116   180   113   182 0.84 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313     4e-08   30.4  31.0   3   3   3.3e-08   6.8e-06   23.1  11.6    51   110   146   201   143   208 0.84 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_000991805.1       -            192 K20037               -            313   7.4e-08   29.6   6.0   1   1   3.6e-10   7.4e-08   29.6   6.0    54   109   110   164   101   173 0.88 MULTISPECIES: electron transport complex subunit RsxB [Enterobacteriaceae]
+WP_000172749.1       -            180 K20037               -            313   1.1e-07   29.0   2.0   1   1   6.9e-10   1.4e-07   28.6   2.0    58   110    57   117    55   134 0.88 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Enterobacteriaceae]
+WP_000838430.1       -            162 K20037               -            313   1.1e-07   28.9  17.6   1   3    0.0078       1.6    5.5   1.4    88   103     8    23     1    36 0.81 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Escherichia]
+WP_000838430.1       -            162 K20037               -            313   1.1e-07   28.9  17.6   2   3   2.6e-07   5.3e-05   20.2   4.7    60   110    54   104    39   115 0.81 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Escherichia]
+WP_000838430.1       -            162 K20037               -            313   1.1e-07   28.9  17.6   3   3   1.3e-07   2.7e-05   21.2   5.0    54   112    79   143    73   150 0.73 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Escherichia]
+WP_000493781.1       -            180 K20037               -            313   1.2e-07   28.9   3.9   1   1   5.6e-10   1.2e-07   28.9   3.9    58   110    37    93    22   112 0.84 MULTISPECIES: formate hydrogenlyase subunit HycF [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   1   3    0.0059       1.2    5.9   2.9    86   105     6    25     2    45 0.67 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   2   3   8.6e-08   1.8e-05   21.7  10.0    58   117    55   114    37   121 0.83 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   3   3   4.2e-07   8.6e-05   19.5   7.6    52   113    80   145    77   155 0.75 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000916055.1       -            181 K20037               -            313   2.4e-07   27.9   6.6   1   1   1.2e-09   2.4e-07   27.9   6.6    58   111    37    94    30   108 0.82 MULTISPECIES: hydrogenase 4 subunit H [Enterobacteriaceae]
+WP_000829662.1       -            357 K20037               -            313   3.4e-07   27.4   3.6   1   1   2.4e-09     5e-07   26.8   3.6    52   106   242   292   234   303 0.80 MULTISPECIES: 4Fe-4S binding protein [Enterobacteriaceae]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   1   3    0.0062       1.3    5.8   6.7    52   106    37   108    32   109 0.76 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   2   3     5e-07    0.0001   19.2   4.5    45   109    76   142    73   152 0.75 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   3   3   3.4e-07     7e-05   19.8   1.0    56   128   120   198   113   206 0.71 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_001310861.1       -            222 K20037               -            313   6.6e-07   26.4  15.3   1   3   0.00044     0.091    9.6   0.8    46    82    31    67    10    79 0.67 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001310861.1       -            222 K20037               -            313   6.6e-07   26.4  15.3   2   3   4.8e-08   9.9e-06   22.6   5.5    50   106    81   138    73   153 0.86 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001310861.1       -            222 K20037               -            313   6.6e-07   26.4  15.3   3   3   9.7e-06     0.002   15.0   1.9    54   113   117   181   114   204 0.63 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   1   3    0.0047      0.97    6.2   0.1    75   104    23    51     2    67 0.74 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   2   3   7.5e-07   0.00015   18.7   2.0    49   103    88   144    85   147 0.85 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   3   3     6e-07   0.00012   19.0   1.8    54   114   126   191   120   205 0.75 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_001078777.1       -            175 K20037               -            313   2.9e-06   24.3   5.7   1   2    0.0058       1.2    5.9   2.6    86   105     6    25     1    46 0.79 MULTISPECIES: electron transport protein HydN [Enterobacteriaceae]
+WP_001078777.1       -            175 K20037               -            313   2.9e-06   24.3   5.7   2   2   1.4e-08   2.9e-06   24.3   5.7    59   111    56   108    37   115 0.84 MULTISPECIES: electron transport protein HydN [Enterobacteriaceae]
+WP_000213028.1       -            205 K20037               -            313   4.2e-06   23.8  10.9   1   2     0.009       1.9    5.3   0.1    51    72     4    25     1    40 0.72 MULTISPECIES: DMSO reductase like molybdoenzyme iron-sulfur subunit YnfG [Enterobacteriaceae]
+WP_000213028.1       -            205 K20037               -            313   4.2e-06   23.8  10.9   2   2   8.9e-08   1.8e-05   21.7   5.6    55   113    61   120    46   138 0.78 MULTISPECIES: DMSO reductase like molybdoenzyme iron-sulfur subunit YnfG [Enterobacteriaceae]
+WP_000013515.1       -            287 K20037               -            313   5.9e-06   23.3   3.6   1   1   4.4e-08     9e-06   22.7   3.6    57   112   222   280   194   285 0.82 MULTISPECIES: quinol dehydrogenase ferredoxin subunit NapH [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.2e-06   22.8  20.0   1   3   1.7e-06   0.00035   17.5   7.4    59   105    35    82    29    90 0.91 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.2e-06   22.8  20.0   2   3   1.6e-06   0.00033   17.6   3.3    53   107    61   122    55   126 0.81 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.2e-06   22.8  20.0   3   3   0.00036     0.073    9.9   0.5    55    78   135   158   127   164 0.77 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_000019425.1_ASM1942v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000019425.1_ASM1942v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_000019425.1_ASM1942v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:12 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_001295295.1       -            299 K20037               -            313   5.6e-87  289.5   0.0   1   1     3e-89   6.2e-87  289.4   0.0    11   310     1   297     1   299 0.94 MULTISPECIES: glycyl-radical enzyme activating protein [Enterobacteriaceae]
+WP_000204105.1       -            292 K20037               -            313   3.6e-80  267.1   0.0   1   2   6.1e-29   1.3e-26   91.2   1.8     7    70    19    82    13    85 0.93 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Enterobacteriaceae]
+WP_000204105.1       -            292 K20037               -            313   3.6e-80  267.1   0.0   2   2   1.3e-55   2.7e-53  178.9   0.0    92   310    76   290    76   292 0.99 MULTISPECIES: [formate-C-acetyltransferase]-activating enzyme [Enterobacteriaceae]
+WP_000111043.1       -            246 K20037               -            313   1.5e-60  202.7   3.6   1   2   6.7e-12   1.4e-09   35.2   1.5    10    49     5    44     1    47 0.88 MULTISPECIES: pyruvate formate lyase 1-activating protein [Gammaproteobacteria]
+WP_000111043.1       -            246 K20037               -            313   1.5e-60  202.7   3.6   2   2   2.5e-52   5.3e-50  168.0   0.0   111   308    48   244    44   246 0.96 MULTISPECIES: pyruvate formate lyase 1-activating protein [Gammaproteobacteria]
+WP_001088415.1       -            287 K20037               -            313   6.3e-46  154.6   0.8   1   1     4e-48   8.3e-46  154.2   0.8     8   255     4   238     1   256 0.92 MULTISPECIES: YjjW family glycine radical enzyme activase [Enterobacteriaceae]
+WP_000091291.1       -            231 K20037               -            313   2.9e-08   30.9  11.2   1   2   1.2e-08   2.5e-06   24.5   0.7    59   112    59   121    53   138 0.85 MULTISPECIES: ferredoxin-type protein NapG [Enterobacteriaceae]
+WP_000091291.1       -            231 K20037               -            313   2.9e-08   30.9  11.2   2   2   0.00011     0.022   11.6   3.7    54   105   132   199   124   212 0.67 MULTISPECIES: ferredoxin-type protein NapG [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313   4.1e-08   30.4  31.0   1   3     0.019         4    4.2   1.8    85   104    61    80    50   113 0.74 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313   4.1e-08   30.4  31.0   2   3   2.6e-07   5.4e-05   20.2  11.4    54   116   116   180   113   182 0.84 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_001070230.1       -            208 K20037               -            313   4.1e-08   30.4  31.0   3   3   3.3e-08   6.9e-06   23.1  11.6    51   110   146   201   143   208 0.84 MULTISPECIES: ferredoxin-like protein [Enterobacteriaceae]
+WP_000991805.1       -            192 K20037               -            313   7.5e-08   29.6   6.0   1   1   3.6e-10   7.5e-08   29.6   6.0    54   109   110   164   101   173 0.88 MULTISPECIES: electron transport complex subunit RsxB [Enterobacteriaceae]
+WP_000172749.1       -            180 K20037               -            313   1.1e-07   29.0   2.0   1   1   6.9e-10   1.4e-07   28.6   2.0    58   110    57   117    55   134 0.88 MULTISPECIES: NADH-quinone oxidoreductase subunit NuoI [Enterobacteriaceae]
+WP_000838428.1       -            162 K20037               -            313   1.1e-07   29.0  17.9   1   3    0.0083       1.7    5.4   1.3    88   103     8    23     1    30 0.80 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000838428.1       -            162 K20037               -            313   1.1e-07   29.0  17.9   2   3     3e-07   6.3e-05   20.0   5.0    60   110    54   104    39   116 0.80 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000838428.1       -            162 K20037               -            313   1.1e-07   29.0  17.9   3   3   1.1e-07   2.2e-05   21.4   5.0    53   112    78   143    71   152 0.73 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000493781.1       -            180 K20037               -            313   1.2e-07   28.9   3.9   1   1   5.6e-10   1.2e-07   28.9   3.9    58   110    37    93    22   112 0.84 MULTISPECIES: formate hydrogenlyase subunit HycF [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   1   3    0.0059       1.2    5.9   2.9    86   105     6    25     2    45 0.67 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   2   3   8.6e-08   1.8e-05   21.7  10.0    58   117    55   114    37   121 0.83 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001300918.1       -            157 K20037               -            313   1.3e-07   28.8  25.6   3   3   4.2e-07   8.7e-05   19.5   7.6    52   113    80   145    77   155 0.75 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000916055.1       -            181 K20037               -            313   2.4e-07   27.9   6.6   1   1   1.2e-09   2.4e-07   27.9   6.6    58   111    37    94    30   108 0.82 MULTISPECIES: hydrogenase 4 subunit H [Enterobacteriaceae]
+WP_000829662.1       -            357 K20037               -            313   3.4e-07   27.4   3.6   1   1   2.4e-09   5.1e-07   26.8   3.6    52   106   242   292   234   303 0.80 MULTISPECIES: 4Fe-4S binding protein [Enterobacteriaceae]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   1   3    0.0062       1.3    5.8   6.7    52   106    37   108    32   109 0.76 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   2   3     5e-07    0.0001   19.2   4.5    45   109    76   142    73   152 0.75 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_000220281.1       -            223 K20037               -            313     4e-07   27.2  12.4   3   3   3.4e-07   7.1e-05   19.8   1.0    56   128   120   198   113   206 0.71 MULTISPECIES: cytochrome c nitrite reductase Fe-S protein [Gammaproteobacteria]
+WP_001310861.1       -            222 K20037               -            313   6.7e-07   26.4  15.3   1   3   0.00044     0.093    9.6   0.8    46    82    31    67    10    79 0.67 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001310861.1       -            222 K20037               -            313   6.7e-07   26.4  15.3   2   3   4.8e-08     1e-05   22.6   5.5    50   106    81   138    73   153 0.86 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_001310861.1       -            222 K20037               -            313   6.7e-07   26.4  15.3   3   3   9.7e-06     0.002   15.0   1.9    54   113   117   181   114   204 0.63 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   1   3    0.0047      0.98    6.2   0.1    75   104    23    51     2    67 0.74 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   2   3   7.5e-07   0.00016   18.7   2.0    49   103    88   144    85   147 0.85 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_000331377.1       -            300 K20037               -            313   1.6e-06   25.2  10.9   3   3     6e-07   0.00013   19.0   1.8    54   114   126   191   120   205 0.75 MULTISPECIES: formate dehydrogenase O subunit beta [Enterobacteriaceae]
+WP_001078777.1       -            175 K20037               -            313     3e-06   24.3   5.7   1   2    0.0058       1.2    5.9   2.6    86   105     6    25     1    46 0.79 MULTISPECIES: electron transport protein HydN [Enterobacteriaceae]
+WP_001078777.1       -            175 K20037               -            313     3e-06   24.3   5.7   2   2   1.4e-08     3e-06   24.3   5.7    59   111    56   108    37   115 0.84 MULTISPECIES: electron transport protein HydN [Enterobacteriaceae]
+WP_000213028.1       -            205 K20037               -            313   4.3e-06   23.8  10.9   1   2     0.009       1.9    5.3   0.1    51    72     4    25     1    40 0.72 MULTISPECIES: DMSO reductase like molybdoenzyme iron-sulfur subunit YnfG [Enterobacteriaceae]
+WP_000213028.1       -            205 K20037               -            313   4.3e-06   23.8  10.9   2   2   8.9e-08   1.9e-05   21.7   5.6    55   113    61   120    46   138 0.78 MULTISPECIES: DMSO reductase like molybdoenzyme iron-sulfur subunit YnfG [Enterobacteriaceae]
+WP_000013515.1       -            287 K20037               -            313     6e-06   23.3   3.6   1   1   4.4e-08   9.1e-06   22.7   3.6    57   112   222   280   194   285 0.82 MULTISPECIES: quinol dehydrogenase ferredoxin subunit NapH [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.3e-06   22.8  20.0   1   3   1.7e-06   0.00036   17.5   7.4    59   105    35    82    29    90 0.91 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.3e-06   22.8  20.0   2   3   1.6e-06   0.00034   17.6   3.3    53   107    61   122    55   126 0.81 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+WP_000686723.1       -            164 K20037               -            313   8.3e-06   22.8  20.0   3   3   0.00036     0.074    9.9   0.5    55    78   135   158   127   164 0.77 MULTISPECIES: ferredoxin-type protein NapF [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm
+# Target file:     example/protein/GCF_000010245.2_ASM1024v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000010245.2_ASM1024v1_protein_cutD.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutD.hmm example/protein/GCF_000010245.2_ASM1024v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000184811.1       -            765 K20038               -            821  2.6e-215  715.1   0.0   1   1    8e-218  6.7e-215  713.7   0.0    33   819     1   764     1   765 0.96 MULTISPECIES: formate C-acetyltransferase [Enterobacteriaceae]
+WP_000209309.1       -            810 K20038               -            821  3.3e-203  675.0   0.0   1   1  5.2e-206  4.3e-203  674.6   0.0    31   818     7   808     2   809 0.95 MULTISPECIES: glycyl radical protein [Escherichia]
+WP_000861734.1       -            764 K20038               -            821   1.1e-55  187.1   0.0   1   2   3.2e-20   2.7e-17   60.1   0.0   261   554   226   514   215   545 0.86 MULTISPECIES: 2-ketobutyrate formate-lyase/pyruvate formate-lyase [Enterobacteriaceae]
+WP_000861734.1       -            764 K20038               -            821   1.1e-55  187.1   0.0   2   2     1e-39   8.5e-37  124.6   0.0   633   819   568   762   552   764 0.91 MULTISPECIES: 2-ketobutyrate formate-lyase/pyruvate formate-lyase [Enterobacteriaceae]
+WP_001292822.1       -            760 K20038               -            821   1.7e-53  179.8   0.5   1   1   3.3e-55   2.8e-52  175.8   0.5   284   820   248   759   220   760 0.88 MULTISPECIES: formate C-acetyltransferase [Enterobacteriaceae]
+WP_000627807.1       -            127 K20038               -            821   3.3e-12   43.3   0.0   1   1   4.8e-15   4.1e-12   43.0   0.0   764   820    70   126    64   127 0.94 MULTISPECIES: autonomous glycyl radical cofactor GrcA [Bacteria]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm
+# Target file:     example/protein/GCF_000010245.2_ASM1024v1_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000010245.2_ASM1024v1_protein_cutC.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cutC.hmm example/protein/GCF_000010245.2_ASM1024v1_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:10 2024
+# [ok]

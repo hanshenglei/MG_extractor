@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAC75347.1</td>
+              <td>NADH:quinone_oxidoreductase_subunit_B</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000048/1">MGC00000048</a></td>
+              <td>NADHD</td>
+              <td>74.0</td>
+              <td>100.4</td>
+              <td>335.0</td>
+              <td>5.66e-120</td>
+          </tr>
+    
+          <tr>
+              <td>EES87859.2</td>
+              <td>NADH-quinone_oxidoreductase_subunit_B</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000056/1">MGC00000056</a></td>
+              <td>NADHD</td>
+              <td>55.0</td>
+              <td>66.7</td>
+              <td>175.0</td>
+              <td>1.74e-57</td>
+          </tr>
+    
+          <tr>
+              <td>AFV12328.1</td>
+              <td>putative_ech_hydrogenase_subunit_C</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/MGC00000036/1">MGC00000036</a></td>
+              <td>ECH</td>
+              <td>43.0</td>
+              <td>54.7</td>
+              <td>103.0</td>
+              <td>3.89e-30</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

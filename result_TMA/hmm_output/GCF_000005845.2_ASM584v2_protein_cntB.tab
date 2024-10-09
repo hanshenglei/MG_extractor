@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NP_416317.1          -            321 K22444               -            321  5.7e-163  539.6   0.3   1   1  1.3e-165  6.4e-163  539.5   0.3     1   321     1   321     1   321 1.00 carnitine monooxygenase subunit YeaX [Escherichia coli str. K-12 substr. MG1655]
+NP_415910.1          -            356 K22444               -            321   1.5e-33  114.3   0.0   1   1   1.2e-35   5.9e-33  112.4   0.0     8   320     6   349     1   350 0.78 phenylacetyl-CoA 1,2-epoxidase, reductase subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_415393.1          -            322 K22444               -            321   3.3e-31  106.6   0.0   1   1   8.8e-34   4.2e-31  106.3   0.0     8   308    11   311     3   321 0.79 NADH oxidoreductase [Escherichia coli str. K-12 substr. MG1655]
+NP_417047.1          -            396 K22444               -            321   1.7e-22   78.0   0.0   1   1   1.1e-24   5.4e-22   76.4   0.0    16   226   162   391   152   395 0.73 nitric oxide dioxygenase [Escherichia coli str. K-12 substr. MG1655]
+NP_416739.1          -             84 K22444               -            321   1.1e-11   42.5   0.5   1   1     3e-14   1.4e-11   42.1   0.5   237   315     4    79     2    82 0.83 ferredoxin-like diferric-tyrosyl radical cofactor maintenance protein YfaE [Escherichia coli str. K-12 substr. MG1655]
+NP_415467.1          -            369 K22444               -            321   2.1e-08   31.7   0.3   1   1   6.6e-11   3.1e-08   31.1   0.3   236   288   290   341   278   365 0.88 6-N-hydroxylaminopurine resistance protein [Escherichia coli str. K-12 substr. MG1655]
+NP_417244.1          -            599 K22444               -            321   5.3e-08   30.4   0.0   1   1   1.8e-10   8.7e-08   29.7   0.0    56   209   386   565   377   579 0.64 sulfite reductase, flavoprotein subunit [Escherichia coli str. K-12 substr. MG1655]
+NP_418359.1          -            248 K22444               -            321   3.4e-06   24.4   0.0   1   1     3e-08   1.4e-05   22.4   0.0     9   213     7   228     1   237 0.61 flavodoxin/ferredoxin-NADP(+) reductase [Escherichia coli str. K-12 substr. MG1655]
+NP_418286.1          -            233 K22444               -            321   7.4e-06   23.3   0.0   1   1   3.1e-08   1.5e-05   22.4   0.0     7   124     4   115     1   148 0.86 NAD(P)H-flavin reductase [Escherichia coli str. K-12 substr. MG1655]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm
+# Target file:     example/protein/GCF_000005845.2_ASM584v2_protein.faa
+# Option settings: /usr/bin/hmmsearch --domtblout result_TMA/hmm_output/GCF_000005845.2_ASM584v2_protein_cntB.tab --acc --noali --notextw -E 1e-05 --domT 0.5 --cpu 16 /home/hanshenglei/Workdir/Gut-extractor/hsl/example/hmm/cntB.hmm example/protein/GCF_000005845.2_ASM584v2_protein.faa 
+# Current dir:     /home/hanshenglei/Workdir/Gut-extractor/hsl
+# Date:            Wed Oct  9 22:59:11 2024
+# [ok]
